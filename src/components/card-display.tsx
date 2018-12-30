@@ -5,7 +5,7 @@ export const CardDisplay: React.FunctionComponent<{
     card: Card;
     imageUrl: string | undefined;
 }> = props => (
-    <div>
+    <div className='card float'>
         {props.card.name}
         <img src={props.imageUrl} />
     </div>

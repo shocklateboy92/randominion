@@ -1,3 +1,42 @@
 .cards-list {
-    color: red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .card {
+        background-color: #fff;
+        color: #444;
+        cursor: pointer;
+        border-radius: 4px;
+
+        position: relative;
+
+        width: 9em;
+        min-height: 12em;
+
+        margin: 1em;
+        padding: 34px;
+
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            background-color: #ccc;
+            left: 20px;
+            right: 20px;
+            bottom: 0;
+            top: 50%;
+            z-index: -1;
+            box-shadow: 0 0 40px lighten(#000, 60%);
+            transition: box-shadow 0.2s ease-in-out;
+        }
+
+        &.float {
+            &:hover {
+                &:before {
+                    box-shadow: 0 0 80px lighten(#000, 60%);
+                }
+            }
+        }
+    }
 }
