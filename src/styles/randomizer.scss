@@ -1,0 +1,22 @@
+.randomizer {
+    .button {
+        border-radius: 20px;
+        color: #ffffff;
+        // font-family: Open Sans;
+        font-size: 40px;
+        font-weight: 100;
+        padding: 40px;
+        background-color: #3d94f6;
+        box-shadow: 1px 1px 20px 0px #000000;
+        text-shadow: 1px 1px 20px #000000;
+        border: solid #337fed 1px;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .button:hover {
+        background: #1e62d0;
+        text-decoration: none;
+    }
+}
