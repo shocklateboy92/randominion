@@ -1,7 +1,7 @@
 import * as React from 'react';
 import './App.css';
 import { getCardsToDisplay } from './cards';
-import CardsList from './containers/cards-list';
+import CardsList from './components/cards-list';
 import logo from './logo.svg';
 
 class App extends React.Component {
