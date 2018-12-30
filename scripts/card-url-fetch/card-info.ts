@@ -1,0 +1,1 @@
+../../data/card-info.ts
