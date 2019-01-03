@@ -14,7 +14,6 @@ export const CardsList: React.SFC<CardsListProps> = props => (
             <CardDisplay
                 key={card.name}
                 card={card}
-                imageUrl={/* TODO: Figure this out */ undefined}
             />
         ))}
     </div>
