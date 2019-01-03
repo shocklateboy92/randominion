@@ -1,23 +1,29 @@
 import * as React from 'react';
-import { Card } from 'src/cards';
+import { Card, AllCards } from 'src/cards';
 import CardDisplay from 'src/components/card-display';
 
 import '../styles/cards-list.scss';
+import { connect } from 'react-redux';
+import { IRootState } from 'src/reducers';
 
 interface CardsListProps {
     cardsToDisplay: Card[];
 }
 
-export const CardsList: React.SFC<CardsListProps> = props => (
-    <div className="cards-list">
-        {props.cardsToDisplay.map(card => (
+const CardsListComponent: React.SFC<CardsListProps> = props => (
+    <div className='cards-list'>
+        {props.cardsToDisplay.map((card, index) => (
             <CardDisplay
-                key={card.name}
+                key={index}
                 card={card}
                 imageUrl={/* TODO: Figure this out */ undefined}
             />
         ))}
     </div>
 );
+
+const CardsList = connect((state: IRootState) => ({
+    cardsToDisplay: state.currentCards.map(index => AllCards[index])
+}))(CardsListComponent);
 
 export default CardsList;

@@ -2,7 +2,7 @@ import { Card, getCardsToDisplay } from 'src/cards';
 import * as React from 'react';
 import CardsList from 'src/components/cards-list';
 
-import '../styles/randomizer.scss'
+import '../styles/randomizer.scss';
 
 interface IRandomizerProps {
     dummy?: 0;
@@ -26,11 +26,11 @@ export default class Randomizer extends React.Component<
 
     public render() {
         return (
-            <div className="randomizer">
-                <div className="toolbar">
-                    <button className="button-cta">Randomize</button>
+            <div className='randomizer'>
+                <div className='toolbar'>
+                    <button className='button-cta'>Randomize</button>
                 </div>
-                <CardsList cardsToDisplay={this.state.currentCards} />
+                <CardsList />
             </div>
         );
     }
