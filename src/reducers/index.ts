@@ -12,7 +12,10 @@ export interface IRootState {
  */
 export type UiIndex = number;
 
-export function rootReducer(state: IRootState, action: RootAction): IRootState {
+export function rootReducer(
+    state: IRootState | undefined,
+    action: RootAction
+): IRootState {
     if (!state) {
         // Return initial state
         return {
