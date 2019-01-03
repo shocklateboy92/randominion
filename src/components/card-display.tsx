@@ -14,6 +14,11 @@ const Component: React.FunctionComponent<{
         className={classNames('card float', { locked: props.isLocked })}
         onClick={props.toggleLock}
     >
+        {props.isLocked && (
+            <div className='status'>
+                <div>Locked</div>
+            </div>
+        )}
         <div className='info-block'>{props.card.name}</div>
         <img src={'http://wiki.dominionstrategy.com/images/2/26/Archive.jpg'} />
     </div>
