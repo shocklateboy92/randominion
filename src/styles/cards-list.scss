@@ -11,11 +11,10 @@
 
         position: relative;
 
-        width: 9em;
+        width: 12em;
         min-height: 12em;
 
         margin: 1em;
-        padding: 34px;
 
         &:before {
             content: '';
@@ -34,9 +33,21 @@
         &.float {
             &:hover {
                 &:before {
-                    box-shadow: 0 0 80px lighten(#000, 60%);
+                    box-shadow: 0 0 80px lighten(#000, 40%);
                 }
             }
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        .info-block {
+            padding: 1em;
+        }
+
+        &.locked {
+            border: green 3px solid;
         }
     }
 }

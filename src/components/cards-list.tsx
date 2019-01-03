@@ -13,11 +13,7 @@ interface CardsListProps {
 const CardsListComponent: React.SFC<CardsListProps> = props => (
     <div className='cards-list'>
         {props.cardsToDisplay.map((card, index) => (
-            <CardDisplay
-                key={index}
-                card={card}
-                imageUrl={/* TODO: Figure this out */ undefined}
-            />
+            <CardDisplay key={index} uiIndex={index} />
         ))}
     </div>
 );
