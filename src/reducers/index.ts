@@ -25,7 +25,11 @@ export function rootReducer(state: IRootState, action: RootAction): IRootState {
         case getType(AllActions.randomize):
             return {
                 ...state,
-                currentCards: getCardsToDisplay()
+                // currentCards: getCardsToDisplay()
+                currentCards: state.currentCards
+                    .map(a => ({ sort: Math.random(), value: a }))
+                    .sort((a, b) => a.sort - b.sort)
+                    .map(a => a.value)
             };
         case getType(AllActions.toggleLock):
             return {
