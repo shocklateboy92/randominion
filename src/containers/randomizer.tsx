@@ -1,37 +1,29 @@
-import { Card, getCardsToDisplay } from 'src/cards';
 import * as React from 'react';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+import { AllActions } from 'src/actions';
 import CardsList from 'src/components/cards-list';
-
 import '../styles/randomizer.scss';
 
 interface IRandomizerProps {
-    dummy?: 0;
+    randomize: () => void;
 }
 
-interface IRandomizerState {
-    currentCards: Card[];
-}
+const Component: React.SFC<IRandomizerProps> = props => (
+    <div className='randomizer'>
+        <div className='toolbar'>
+            <button className='button-cta' onClick={props.randomize}>
+                Randomize
+            </button>
+        </div>
+        <CardsList />
+    </div>
+);
 
-export default class Randomizer extends React.Component<
-    IRandomizerProps,
-    IRandomizerState
-> {
-    constructor(props: IRandomizerProps) {
-        super(props);
+const Randomizer = connect(
+    undefined,
+    dispatch =>
+        bindActionCreators({ randomize: AllActions.randomize }, dispatch)
+)(Component);
 
-        this.state = {
-            currentCards: getCardsToDisplay()
-        };
-    }
-
-    public render() {
-        return (
-            <div className='randomizer'>
-                <div className='toolbar'>
-                    <button className='button-cta'>Randomize</button>
-                </div>
-                <CardsList />
-            </div>
-        );
-    }
-}
+export default Randomizer;

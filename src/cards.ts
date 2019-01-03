@@ -30,5 +30,5 @@ export const AllCards: Card[] = CardInfo.map(card => ({
 }));
 
 export function getCardsToDisplay() {
-    return AllCards.slice(0, 10);
+    return Array(10).fill(Math.floor(Math.random() * AllCards.length));
 }
