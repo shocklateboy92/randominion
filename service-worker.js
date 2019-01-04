@@ -15,7 +15,7 @@ importScripts("/randominion/workbox-v3.6.3/workbox-sw.js");
 workbox.setConfig({modulePathPrefix: "/randominion/workbox-v3.6.3"});
 
 importScripts(
-  "/randominion/precache-manifest.ec2241dad3895c0befefcd5037ab98b1.js"
+  "/randominion/precache-manifest.ca7ef5306934ddb8491ebdf82c9c3477.js"
 );
 
 workbox.clientsClaim();

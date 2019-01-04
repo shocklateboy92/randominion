@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b5eac62fdcb6d74bf708",
-    "url": "/randominion/static/css/main.af5f25a6.chunk.css"
+    "revision": "8d2655d1e83480f03e54",
+    "url": "/randominion/static/css/main.be35028c.chunk.css"
   },
   {
-    "revision": "b5eac62fdcb6d74bf708",
-    "url": "/randominion/static/js/main.b5eac62f.chunk.js"
+    "revision": "8d2655d1e83480f03e54",
+    "url": "/randominion/static/js/main.8d2655d1.chunk.js"
   },
   {
     "revision": "509749ac880a47103ecb",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/randominion/static/media/trajan-pro-regular.b11f35f7.ttf"
   },
   {
-    "revision": "16f86dfce9d44adc6311d2ea9ed86bb5",
+    "revision": "dd03d48daa93adc3d572bc96aa34c7ef",
     "url": "/randominion/index.html"
   }
 ];

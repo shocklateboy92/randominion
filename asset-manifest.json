@@ -1,15 +1,15 @@
 {
-  "main.css": "/randominion/static/css/main.af5f25a6.chunk.css",
-  "main.js": "/randominion/static/js/main.b5eac62f.chunk.js",
-  "main.js.map": "/randominion/static/js/main.b5eac62f.chunk.js.map",
+  "main.css": "/randominion/static/css/main.be35028c.chunk.css",
+  "main.js": "/randominion/static/js/main.8d2655d1.chunk.js",
+  "main.js.map": "/randominion/static/js/main.8d2655d1.chunk.js.map",
   "static/js/1.509749ac.chunk.js": "/randominion/static/js/1.509749ac.chunk.js",
   "static/js/1.509749ac.chunk.js.map": "/randominion/static/js/1.509749ac.chunk.js.map",
   "runtime~main.js": "/randominion/static/js/runtime~main.370f8042.js",
   "runtime~main.js.map": "/randominion/static/js/runtime~main.370f8042.js.map",
   "static/media/logo.svg": "/randominion/static/media/logo.5d5d9eef.svg",
   "static/media/cards-list.scss": "/randominion/static/media/trajan-pro-regular.b11f35f7.ttf",
-  "static/css/main.af5f25a6.chunk.css.map": "/randominion/static/css/main.af5f25a6.chunk.css.map",
+  "static/css/main.be35028c.chunk.css.map": "/randominion/static/css/main.be35028c.chunk.css.map",
   "index.html": "/randominion/index.html",
-  "precache-manifest.ec2241dad3895c0befefcd5037ab98b1.js": "/randominion/precache-manifest.ec2241dad3895c0befefcd5037ab98b1.js",
+  "precache-manifest.ca7ef5306934ddb8491ebdf82c9c3477.js": "/randominion/precache-manifest.ca7ef5306934ddb8491ebdf82c9c3477.js",
   "service-worker.js": "/randominion/service-worker.js"
 }
