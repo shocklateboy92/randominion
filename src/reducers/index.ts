@@ -1,10 +1,11 @@
 import { CardIndex, getCardsToDisplay } from 'src/cards';
 import { RootAction, AllActions } from 'src/actions';
 import { getType } from 'typesafe-actions';
+import { Set } from 'immutable';
 
 export interface IRootState {
     currentCards: CardIndex[];
-    lockedCards: Set<UiIndex>;
+    lockedCards: Set<number>;
 }
 
 /**
@@ -20,7 +21,7 @@ export function rootReducer(
         // Return initial state
         return {
             currentCards: getCardsToDisplay(),
-            lockedCards: new Set()
+            lockedCards: Set()
         };
     }
 
@@ -37,14 +38,9 @@ export function rootReducer(
         case getType(AllActions.toggleLock):
             return {
                 ...state,
-                // TODO: find nicer way of doing this
-                lockedCards: state.lockedCards.has(action.payload)
-                    ? new Set(
-                          Array.from(state.lockedCards).filter(
-                              value => value !== action.payload
-                          )
-                      )
-                    : new Set([...state.lockedCards, action.payload])
+                lockedCards: state.lockedCards.contains(action.payload)
+                    ? state.lockedCards.remove(action.payload)
+                    : state.lockedCards.add(action.payload)
             };
         default:
             return state;
