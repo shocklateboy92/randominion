@@ -50,12 +50,25 @@ $card-border-color: green;
 
         img {
             max-width: 100%;
+            margin-bottom: -5px;
+            border-bottom-left-radius: $card-border-radius;
+            border-bottom-right-radius: $card-border-radius;
         }
 
         .info-block {
             padding-top: 15px;
             padding-bottom: 5px;
-            font-weight: bold;
+            padding-right: 15px;
+            text-align: right;
+
+            > * {
+                padding-left: 10px;
+            }
+
+            > .info-value {
+                font-weight: bold;
+                padding-left: 5px;
+            }
         }
 
         .status {

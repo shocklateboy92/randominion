@@ -5,6 +5,13 @@ import { AllActions } from 'src/actions';
 import { AllCards, Card } from 'src/cards';
 import { IRootState } from 'src/reducers';
 
+const InfoProp: React.SFC<{ name: string }> = props => (
+    <>
+        <span className='info-key'>{props.name}</span>
+        <span className='info-value'>{props.children}</span>
+    </>
+);
+
 const Component: React.FunctionComponent<{
     card: Card;
     isLocked: boolean;
@@ -19,7 +26,10 @@ const Component: React.FunctionComponent<{
                 <div>Locked</div>
             </div>
         )}
-        <div className='info-block'>{props.card.name}</div>
+        <div className='info-block'>
+            <InfoProp name='Row'>12</InfoProp>
+            <InfoProp name='Col'>3</InfoProp>
+        </div>
         <img src={'http://wiki.dominionstrategy.com/images/2/26/Archive.jpg'} />
     </div>
 );
