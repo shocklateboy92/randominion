@@ -1,8 +1,17 @@
+@import './theme';
+
 .randomizer {
     .toolbar {
         > * {
             margin: 1em;
+            height: 1.5em;
         }
+
+        position: sticky;
+        top: 0;
+
+        z-index: 2;
+        background-color: $background-color;
     }
 
     .container {

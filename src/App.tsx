@@ -1,7 +1,9 @@
 import * as React from 'react';
-import './App.css';
 import Randomizer from './containers/randomizer';
 import logo from './logo.svg';
+
+import './App.css';
+import './styles/body.scss';
 
 class App extends React.Component {
     public render() {
