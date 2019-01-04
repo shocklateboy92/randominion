@@ -30,7 +30,7 @@ const Component: React.FunctionComponent<{
             <InfoProp name='Row'>12</InfoProp>
             <InfoProp name='Col'>3</InfoProp>
         </div>
-        <img src={'http://wiki.dominionstrategy.com/images/2/26/Archive.jpg'} />
+        <img src={props.card.imageUrl} />
     </div>
 );
 

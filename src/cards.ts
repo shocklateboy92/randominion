@@ -7,6 +7,7 @@ export interface Expansion {
 
 export interface Card {
     name: string;
+    imageUrl: string;
     set: Expansion;
 }
 
@@ -26,6 +27,7 @@ const sets = CardInfo.reduce(
 
 export const AllCards: Card[] = CardInfo.map(card => ({
     name: card.name,
+    imageUrl: card.image,
     set: sets[card.set]!
 }));
 
