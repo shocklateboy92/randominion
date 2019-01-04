@@ -1,17 +1,22 @@
 $card-border-radius: 5px;
 $card-border-color: green;
 
+$card-width: 12em;
+$card-margin: 1em;
+
 @font-face {
     font-family: 'trajan-pro';
     src: url('./trajan-pro-regular.ttf');
 }
 
 .cards-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    position: relative;
+    display: inline-block;
+    max-width: (($card-margin * 2) + $card-width) * 5;
 
     .card {
+        display: inline-block;
+
         background-color: #fff;
         color: #444;
         cursor: pointer;
@@ -21,8 +26,8 @@ $card-border-color: green;
 
         position: relative;
 
-        width: 12em;
-        min-height: 12em;
+        width: $card-width;
+        min-height: $card-margin;
 
         margin: 1em;
 
