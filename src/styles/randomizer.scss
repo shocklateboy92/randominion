@@ -1,9 +1,7 @@
 .randomizer {
     .toolbar {
-        margin: 1em;
-        display: flex;
-        flex-direction: row;
-        align-content: center;
-        width: 100%;
+        > * {
+            margin: 1em;
+        }
     }
 }
