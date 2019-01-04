@@ -1,11 +1,11 @@
-import { CardIndex, getCardsToDisplay } from 'src/cards';
-import { RootAction, AllActions } from 'src/actions';
-import { getType } from 'typesafe-actions';
 import { Set } from 'immutable';
+import { AllActions, RootAction } from 'src/actions';
+import { getType } from 'typesafe-actions';
+import { currentCards } from './currentCards.reducer';
 
-export interface IRootState {
-    currentCards: CardIndex[];
-    lockedCards: Set<number>;
+interface IRootState {
+    currentCards: ReturnType<typeof currentCards>;
+    lockedCards: Set<UiIndex>;
 }
 
 /**
@@ -13,28 +13,15 @@ export interface IRootState {
  */
 export type UiIndex = number;
 
+const initialState = {
+    currentCards: undefined!,
+    lockedCards: Set()
+};
 export function cardsList(
-    state: IRootState | undefined,
+    state: IRootState = initialState,
     action: RootAction
 ): IRootState {
-    if (!state) {
-        // Return initial state
-        return {
-            currentCards: getCardsToDisplay(),
-            lockedCards: Set()
-        };
-    }
-
     switch (action.type) {
-        case getType(AllActions.randomize):
-            return {
-                ...state,
-                // currentCards: getCardsToDisplay()
-                currentCards: state.currentCards
-                    .map(a => ({ sort: Math.random(), value: a }))
-                    .sort((a, b) => a.sort - b.sort)
-                    .map(a => a.value)
-            };
         case getType(AllActions.toggleLock):
             return {
                 ...state,
@@ -48,6 +35,13 @@ export function cardsList(
                 lockedCards: Set()
             };
         default:
-            return state;
+            return {
+                ...state,
+                currentCards: currentCards(
+                    state.currentCards,
+                    action,
+                    state.lockedCards
+                )
+            };
     }
 }
