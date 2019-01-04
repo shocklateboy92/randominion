@@ -1,6 +1,11 @@
 $card-border-radius: 5px;
 $card-border-color: green;
 
+@font-face {
+    font-family: 'trajan-pro';
+    src: url('./trajan-pro-regular.ttf');
+}
+
 .cards-list {
     display: flex;
     flex-direction: row;
@@ -11,6 +16,8 @@ $card-border-color: green;
         color: #444;
         cursor: pointer;
         border-radius: $card-border-radius;
+
+        font-family: 'trajan-pro';
 
         position: relative;
 
@@ -46,7 +53,9 @@ $card-border-color: green;
         }
 
         .info-block {
-            padding: 0.5em;
+            padding-top: 15px;
+            padding-bottom: 5px;
+            font-weight: bold;
         }
 
         .status {
