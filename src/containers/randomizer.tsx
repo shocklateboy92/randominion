@@ -4,6 +4,7 @@ import { bindActionCreators } from 'redux';
 import { AllActions } from 'src/actions';
 import CardsList from 'src/components/cards-list';
 import '../styles/randomizer.scss';
+import CardInfoPane from 'src/components/card-info-pane';
 
 interface IRandomizerProps {
     randomize: () => void;
@@ -20,7 +21,10 @@ const Component: React.SFC<IRandomizerProps> = props => (
                 Unlock All
             </button>
         </div>
-        <CardsList />
+        <div className='container'>
+            <CardsList />
+            <CardInfoPane />
+        </div>
     </div>
 );
 

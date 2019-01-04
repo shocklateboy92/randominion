@@ -16,10 +16,12 @@ const Component: React.FunctionComponent<{
     card: Card;
     isLocked: boolean;
     toggleLock: () => void;
+    selectCard: () => void;
 }> = props => (
     <div
         className={classNames('card float', { locked: props.isLocked })}
         onClick={props.toggleLock}
+        onMouseEnter={props.selectCard}
     >
         {props.isLocked && (
             <div className='status'>
@@ -42,6 +44,9 @@ export const CardDisplay = connect(
     (dispatch, ownProps) => ({
         toggleLock() {
             dispatch(AllActions.toggleLock(ownProps.uiIndex));
+        },
+        selectCard() {
+            dispatch(AllActions.selectCard(ownProps.uiIndex));
         }
     })
 )(Component);
