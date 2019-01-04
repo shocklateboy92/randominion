@@ -8,12 +8,10 @@ interface IUndoState<T> {
     future: T[];
 }
 
-export const withUndo = <T, U extends Array<unknown>>(
-    reducer: ReducerHelper<T>
-) => (
+export const withUndo = <T>(reducer: ReducerHelper<T>) => (
     state: IUndoState<T> | undefined,
     action: RootAction,
-    ...extraArgs: U
+    ...extraArgs: Array<unknown>
 ): IUndoState<T> => {
     if (!state) {
         return {
@@ -24,12 +22,20 @@ export const withUndo = <T, U extends Array<unknown>>(
     }
     switch (action.type) {
         case getType(AllActions.undo):
+            if (!state.past.length) {
+                return state;
+            }
+
             return {
                 past: state.past.slice(0, state.past.length - 1),
                 present: state.past[state.past.length - 1],
                 future: [state.present, ...state.future]
             };
         case getType(AllActions.redo):
+            if (!state.future.length) {
+                return state;
+            }
+
             return {
                 past: [...state.past, state.present],
                 present: state.future[0],

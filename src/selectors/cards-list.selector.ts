@@ -3,7 +3,7 @@ import { UiIndex } from 'src/reducers/cards-list.reducer';
 import { AllCards } from 'src/cards';
 
 export const getCurrentCards = (state: IRootState) =>
-    state.cardsList.currentCards;
+    state.cardsList.currentCards.present;
 
 export const getCardAt = (state: IRootState, uiIndex: UiIndex) =>
     AllCards[getCurrentCards(state)[uiIndex]];

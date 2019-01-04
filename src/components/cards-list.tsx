@@ -6,6 +6,7 @@ import FlipMove from 'react-flip-move';
 import '../styles/cards-list.scss';
 import { connect } from 'react-redux';
 import { IRootState } from 'src/reducers';
+import { getCurrentCards } from 'src/selectors/cards-list.selector';
 
 interface CardsListProps {
     cardsToDisplay: Card[];
@@ -21,8 +22,8 @@ const CardsListComponent: React.SFC<CardsListProps> = props => (
     </div>
 );
 
-const CardsList = connect(({ cardsList }: IRootState) => ({
-    cardsToDisplay: cardsList.currentCards.map(index => AllCards[index])
+const CardsList = connect((state: IRootState) => ({
+    cardsToDisplay: getCurrentCards(state).map(index => AllCards[index])
 }))(CardsListComponent);
 
 export default CardsList;

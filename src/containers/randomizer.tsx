@@ -9,17 +9,17 @@ import CardInfoPane from 'src/components/card-info-pane';
 interface IRandomizerProps {
     randomize: () => void;
     unlockAll: () => void;
+    undo: () => void;
+    redo: () => void;
 }
 
 const Component: React.SFC<IRandomizerProps> = props => (
     <div className='randomizer'>
         <div className='toolbar'>
-            <button className='toolbar-button' onClick={props.randomize}>
-                Randomize
-            </button>
-            <button className='toolbar-button' onClick={props.unlockAll}>
-                Unlock All
-            </button>
+            <button onClick={props.randomize}>Randomize</button>
+            <button onClick={props.unlockAll}>Unlock All</button>
+            <button onClick={props.undo}>Undo</button>
+            <button onClick={props.redo}>Redo</button>
         </div>
         <div className='container'>
             <CardsList />
