@@ -42,6 +42,11 @@ export function rootReducer(
                     ? state.lockedCards.remove(action.payload)
                     : state.lockedCards.add(action.payload)
             };
+        case getType(AllActions.unlockAll):
+            return {
+                ...state,
+                lockedCards: Set()
+            };
         default:
             return state;
     }

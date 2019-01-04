@@ -7,13 +7,17 @@ import '../styles/randomizer.scss';
 
 interface IRandomizerProps {
     randomize: () => void;
+    unlockAll: () => void;
 }
 
 const Component: React.SFC<IRandomizerProps> = props => (
     <div className='randomizer'>
         <div className='toolbar'>
-            <button className='button-cta' onClick={props.randomize}>
+            <button className='toolbar-button' onClick={props.randomize}>
                 Randomize
+            </button>
+            <button className='toolbar-button' onClick={props.unlockAll}>
+                Unlock All
             </button>
         </div>
         <CardsList />
@@ -22,8 +26,7 @@ const Component: React.SFC<IRandomizerProps> = props => (
 
 const Randomizer = connect(
     undefined,
-    dispatch =>
-        bindActionCreators({ randomize: AllActions.randomize }, dispatch)
+    dispatch => bindActionCreators({ ...AllActions }, dispatch)
 )(Component);
 
 export default Randomizer;
