@@ -2,8 +2,9 @@ import classNames from 'classnames';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { AllActions } from 'src/actions';
-import { AllCards, Card } from 'src/cards';
+import { Card } from 'src/cards';
 import { IRootState } from 'src/reducers';
+import { getCardAt, getLockedCards } from 'src/selectors/cards-list.selector';
 
 const InfoProp: React.SFC<{ name: string }> = props => (
     <>
@@ -37,9 +38,9 @@ const Component: React.FunctionComponent<{
 );
 
 export const CardDisplay = connect(
-    ({ cardsList }: IRootState, ownProps: { uiIndex: number }) => ({
-        card: AllCards[cardsList.currentCards[ownProps.uiIndex]],
-        isLocked: cardsList.lockedCards.has(ownProps.uiIndex)
+    (state: IRootState, ownProps: { uiIndex: number }) => ({
+        card: getCardAt(state, ownProps.uiIndex),
+        isLocked: getLockedCards(state).has(ownProps.uiIndex)
     }),
     (dispatch, ownProps) => ({
         toggleLock() {

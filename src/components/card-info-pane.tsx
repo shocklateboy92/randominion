@@ -1,8 +1,9 @@
 import * as React from 'react';
-import { Card, AllCards } from 'src/cards';
 import { connect } from 'react-redux';
+import { Card } from 'src/cards';
 import { IRootState } from 'src/reducers';
-
+import { getCurrentlySelectedCard } from 'src/selectors/card-info-pane.selectors';
+import { getCardAt } from 'src/selectors/cards-list.selector';
 import '../styles/card-info-pane.scss';
 
 const Component: React.SFC<{ card?: Card }> = props => (
@@ -15,10 +16,8 @@ const Component: React.SFC<{ card?: Card }> = props => (
     </>
 );
 
-export const CardInfoPane = connect(
-    ({ cardInfoPane, cardsList }: IRootState) => ({
-        card: AllCards[cardsList.currentCards[cardInfoPane.currentIndex]]
-    })
-)(Component);
+export const CardInfoPane = connect((state: IRootState) => ({
+    card: getCardAt(state, getCurrentlySelectedCard(state))
+}))(Component);
 
 export default CardInfoPane;
