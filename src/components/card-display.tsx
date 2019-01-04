@@ -35,9 +35,9 @@ const Component: React.FunctionComponent<{
 );
 
 export const CardDisplay = connect(
-    (state: IRootState, ownProps: { uiIndex: number }) => ({
-        card: AllCards[state.currentCards[ownProps.uiIndex]],
-        isLocked: state.lockedCards.has(ownProps.uiIndex)
+    ({ cardsList }: IRootState, ownProps: { uiIndex: number }) => ({
+        card: AllCards[cardsList.currentCards[ownProps.uiIndex]],
+        isLocked: cardsList.lockedCards.has(ownProps.uiIndex)
     }),
     (dispatch, ownProps) => ({
         toggleLock() {

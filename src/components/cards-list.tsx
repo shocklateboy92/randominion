@@ -21,8 +21,8 @@ const CardsListComponent: React.SFC<CardsListProps> = props => (
     </div>
 );
 
-const CardsList = connect((state: IRootState) => ({
-    cardsToDisplay: state.currentCards.map(index => AllCards[index])
+const CardsList = connect(({ cardsList }: IRootState) => ({
+    cardsToDisplay: cardsList.currentCards.map(index => AllCards[index])
 }))(CardsListComponent);
 
 export default CardsList;
