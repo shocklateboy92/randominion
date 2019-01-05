@@ -1,15 +1,13 @@
 .card-info-pane {
     display: inline-block;
     vertical-align: top;
+    margin-top: 0.25em;
+    padding-top: 5px;
 
     position: sticky;
-    top: 2.5em;
-
-    margin-top: 1em;
 
     img {
         max-width: calc(100% - 2em);
-        margin-right: 2em;
         border-radius: 5px;
     }
 }
