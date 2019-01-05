@@ -1,5 +1,6 @@
 import { CardInfo } from './data/card-info';
 import { Dictionary } from './models/dictionary';
+// import { Set } from 'immutable';
 
 export interface Expansion {
     name: string;
@@ -31,8 +32,19 @@ export const AllCards: Card[] = CardInfo.map(card => ({
     set: sets[card.set]!
 }));
 
-export function getCardsToDisplay() {
-    return Array(10)
-        .fill(1) /* Not sure why this is needed O_o */
-        .map(_ => Math.floor(Math.random() * AllCards.length));
+function getRandomInt(max: number) {
+    return Math.floor(Math.random() * Math.floor(max));
+}
+
+export function getRandomCardsToDisplay(lockedCards: number[]) {
+    let randomCardIndexes: number[];
+    randomCardIndexes = [...lockedCards];
+    // TODO maybe we should be using a set instead of an Array?
+    while (randomCardIndexes.length < 10) {
+        const randomInt = getRandomInt(AllCards.length);
+        if (randomCardIndexes.indexOf(randomInt) === -1) {
+            randomCardIndexes.push(randomInt);
+        }
+    }
+    return randomCardIndexes;
 }

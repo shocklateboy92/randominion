@@ -35,13 +35,29 @@ export function cardsList(
                 lockedCards: Set()
             };
         default:
+            let lockedCardNumbers = Set();
+            for (const i of state.lockedCards) {
+                lockedCardNumbers = lockedCardNumbers.add(
+                    state.currentCards.present[i]
+                );
+            }
+
+            const currentCardsNew = currentCards(
+                state.currentCards,
+                action,
+                state.lockedCards
+            );
+
+            let lockedCadsNew = Set();
+            for (const i in currentCardsNew.present) {
+                if (lockedCardNumbers.contains(currentCardsNew.present[i])) {
+                    lockedCadsNew = lockedCadsNew.add(parseInt(i, 10));
+                }
+            }
             return {
                 ...state,
-                currentCards: currentCards(
-                    state.currentCards,
-                    action,
-                    state.lockedCards
-                )
+                currentCards: currentCardsNew,
+                lockedCards: lockedCadsNew
             };
     }
 }

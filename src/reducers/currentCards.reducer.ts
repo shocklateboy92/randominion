@@ -1,25 +1,32 @@
 import { AllActions, RootAction } from 'src/actions';
-import { CardIndex, getCardsToDisplay } from 'src/cards';
+import { CardIndex, getRandomCardsToDisplay } from 'src/cards';
 import { getType } from 'typesafe-actions';
-import { UiIndex } from './cards-list.reducer';
-import { Set } from 'immutable';
+// import { UiIndex } from './cards-list.reducer';
+// import { Set } from 'immutable';
 import { withUndo } from './undo.enhancer';
 
 type ICurrentCardsState = CardIndex[];
 
-const initialState = getCardsToDisplay();
+const initialState = getRandomCardsToDisplay([]);
 
 function currentCardsReducer(
     state: ICurrentCardsState = initialState,
     action: RootAction,
-    lockedCards: Set<UiIndex>
+    lockedCards: any
 ) {
     switch (action.type) {
         case getType(AllActions.randomize):
-            return state
-                .map(a => ({ sort: Math.random(), value: a }))
-                .sort((a, b) => a.sort - b.sort)
-                .map(a => a.value);
+            const lockedArray = [];
+            // TODO WTF WTF WTF
+            const arr = [...lockedCards];
+            const arr0 = arr[0];
+            if (arr0 !== undefined) {
+                const arr1 = [...arr0];
+                for (const i of arr1) {
+                    lockedArray.push(state[i]);
+                }
+            }
+            return getRandomCardsToDisplay(lockedArray);
 
         default:
             return state;
