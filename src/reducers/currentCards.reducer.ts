@@ -1,5 +1,5 @@
 import { AllActions, RootAction } from 'src/actions';
-import { CardIndex, KingdomCardsOwned } from 'src/cards';
+import { CardIndex, OwnedKingdomCards } from 'src/cards';
 import { getType } from 'typesafe-actions';
 import { UiIndex } from './cards-list.reducer';
 import { withUndo } from './undo.enhancer';
@@ -17,7 +17,7 @@ function getRandomCardsToDisplay(lockedCards: Set<number>): number[] {
     let randomCardIndices: Set<number> = new Set(lockedCards);
 
     while (randomCardIndices.size < KINGDOM_CARDS_REQUIRED) {
-        const randomInt = getRandomInt(KingdomCardsOwned.length);
+        const randomInt = getRandomInt(OwnedKingdomCards.length);
         if (!randomCardIndices.has(randomInt)) {
             randomCardIndices = randomCardIndices.add(randomInt);
         }

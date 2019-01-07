@@ -35,7 +35,7 @@ const sets = CardInfo.reduce(
     {} as Dictionary<Expansion>
 );
 
-function IsOwnedKingdomCard(card: Card): boolean {
+function IsKingdomCardOwned(card: Card): boolean {
     if (
         card.set !== sets[SET_NAME_DARK_AGES]! &&
         card.type === SET_TYPE_KINGDOM &&
@@ -59,6 +59,6 @@ const AllCards: Card[] = CardInfo.map(card => ({
     removed: card.status === 'removed'
 }));
 
-export const KingdomCardsOwned: Card[] = AllCards.filter((card, index) =>
-    IsOwnedKingdomCard(card)
+export const OwnedKingdomCards: Card[] = AllCards.filter((card, index) =>
+    IsKingdomCardOwned(card)
 );

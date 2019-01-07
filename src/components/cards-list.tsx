@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Card, KingdomCardsOwned } from 'src/cards';
+import { Card, OwnedKingdomCards } from 'src/cards';
 import CardDisplay from 'src/components/card-display';
 import FlipMove from 'react-flip-move';
 
@@ -24,7 +24,7 @@ const CardsListComponent: React.SFC<CardsListProps> = props => (
 
 const CardsList = connect((state: IRootState) => ({
     cardsToDisplay: getCurrentCards(state).map(
-        index => KingdomCardsOwned[index]
+        index => OwnedKingdomCards[index]
     )
 }))(CardsListComponent);
 
