@@ -40,6 +40,11 @@ export function cardsList(
                     ...state,
                     lockedCards: ImmutableSet()
                 };
+            case getType(AllActions.lockAll):
+                return {
+                    ...state,
+                    lockedCards: ImmutableSet([1, 2, 3, 4, 5, 6, 7, 8, 9, 0])
+                };
             case getType(AllActions.randomize):
             case getType(AllActions.redo):
             case getType(AllActions.undo):

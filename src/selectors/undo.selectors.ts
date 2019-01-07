@@ -5,3 +5,6 @@ export const canUndo = (state: IRootState) =>
 
 export const canRedo = (state: IRootState) =>
     state.cardsList.currentCards.future.length > 0;
+
+export const allUnlocked = (state: IRootState) =>
+    state.cardsList.lockedCards.size === 0;
