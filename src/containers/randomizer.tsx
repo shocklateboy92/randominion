@@ -5,7 +5,7 @@ import { AllActions } from 'src/actions';
 import CardInfoPane from 'src/components/card-info-pane';
 import CardsList from 'src/components/cards-list';
 import { IRootState } from 'src/reducers';
-import { canRedo, canUndo } from 'src/selectors/undo.selectors';
+import { canRedo, canUndo, allUnlocked } from 'src/selectors/undo.selectors';
 import '../styles/randomizer.scss';
 import '../styles/button.scss';
 import classNames from 'classnames';
@@ -13,11 +13,13 @@ import classNames from 'classnames';
 interface IRandomizerProps {
     randomize: () => void;
     unlockAll: () => void;
+    lockAll: () => void;
     undo: () => void;
     redo: () => void;
 
     canUndo: boolean;
     canRedo: boolean;
+    allUnlocked: boolean;
 }
 
 const Component: React.SFC<IRandomizerProps> = props => (
@@ -30,10 +32,20 @@ const Component: React.SFC<IRandomizerProps> = props => (
                 <span>Randomize</span>
             </span>
             <span
-                className='btn-container btn btn-one'
+                className={classNames('btn-container btn btn-one', {
+                    hidden: props.allUnlocked
+                })}
                 onClick={props.unlockAll}
             >
                 <span>Unlock All</span>
+            </span>
+            <span
+                className={classNames('btn-container btn btn-one', {
+                    hidden: !props.allUnlocked
+                })}
+                onClick={props.lockAll}
+            >
+                <span>Lock All</span>
             </span>
             <span
                 className={classNames('btn-container btn btn-one', {
@@ -62,7 +74,8 @@ const Component: React.SFC<IRandomizerProps> = props => (
 const Randomizer = connect(
     (state: IRootState) => ({
         canUndo: canUndo(state),
-        canRedo: canRedo(state)
+        canRedo: canRedo(state),
+        allUnlocked: allUnlocked(state)
     }),
     dispatch => bindActionCreators({ ...AllActions }, dispatch)
 )(Component);
