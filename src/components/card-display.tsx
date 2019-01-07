@@ -16,6 +16,9 @@ const InfoProp: React.SFC<{ name: string }> = props => (
 const Component: React.FunctionComponent<{
     card: Card;
     isLocked: boolean;
+    box: number;
+    column: number;
+    row: number;
     toggleLock: () => void;
     selectCard: () => void;
 }> = props => (
@@ -30,8 +33,9 @@ const Component: React.FunctionComponent<{
             </div>
         )}
         <div className='info-block'>
-            <InfoProp name='Row'>12</InfoProp>
-            <InfoProp name='Col'>3</InfoProp>
+            <InfoProp name='Box'>{props.box}</InfoProp>
+            <InfoProp name='Col'>{props.column}</InfoProp>
+            <InfoProp name='Row'>{props.row}</InfoProp>
         </div>
         <img src={props.card.imageUrl} />
     </div>
@@ -40,7 +44,17 @@ const Component: React.FunctionComponent<{
 export const CardDisplay = connect(
     (state: IRootState, ownProps: { uiIndex: number }) => ({
         card: getCardAt(state, ownProps.uiIndex),
-        isLocked: getLockedCards(state).has(ownProps.uiIndex)
+        isLocked: getLockedCards(state).has(ownProps.uiIndex),
+        box:
+            Math.floor(
+                state.cardsList.currentCards.present[ownProps.uiIndex] / 210
+            ) + 1,
+        column:
+            Math.floor(
+                (state.cardsList.currentCards.present[ownProps.uiIndex] % 210) /
+                    30
+            ) + 1,
+        row: (state.cardsList.currentCards.present[ownProps.uiIndex] % 30) + 1
     }),
     (dispatch, ownProps) => ({
         toggleLock() {
