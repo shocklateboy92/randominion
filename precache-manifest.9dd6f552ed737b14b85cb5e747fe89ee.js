@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "8d2655d1e83480f03e54",
-    "url": "/randominion/static/css/main.be35028c.chunk.css"
+    "revision": "c4d8c533347a8b86fa87",
+    "url": "/randominion/static/css/main.27805d6a.chunk.css"
   },
   {
-    "revision": "8d2655d1e83480f03e54",
-    "url": "/randominion/static/js/main.8d2655d1.chunk.js"
+    "revision": "c4d8c533347a8b86fa87",
+    "url": "/randominion/static/js/main.c4d8c533.chunk.js"
   },
   {
-    "revision": "509749ac880a47103ecb",
-    "url": "/randominion/static/js/1.509749ac.chunk.js"
+    "revision": "21f6543a15c1eacf4a17",
+    "url": "/randominion/static/js/1.21f6543a.chunk.js"
   },
   {
     "revision": "370f804272b508f9db02",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/randominion/static/media/trajan-pro-regular.b11f35f7.ttf"
   },
   {
-    "revision": "dd03d48daa93adc3d572bc96aa34c7ef",
+    "revision": "475965d52c7c364f0b7675f057a0e1d9",
     "url": "/randominion/index.html"
   }
 ];
