@@ -16,7 +16,7 @@ export const withUndo = <T>(reducer: ReducerHelper<T>) => (
     if (!state) {
         return {
             past: [],
-            present: reducer(undefined, AllActions.initialize(), extraArgs),
+            present: reducer(undefined, AllActions.initialize(), ...extraArgs),
             future: []
         };
     }
@@ -43,7 +43,7 @@ export const withUndo = <T>(reducer: ReducerHelper<T>) => (
             };
 
         default:
-            const newPresent = reducer(state.present, action, extraArgs);
+            const newPresent = reducer(state.present, action, ...extraArgs);
             if (newPresent === state.present) {
                 return state;
             }

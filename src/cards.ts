@@ -31,20 +31,3 @@ export const AllCards: Card[] = CardInfo.map(card => ({
     imageUrl: card.image,
     set: sets[card.set]!
 }));
-
-function getRandomInt(max: number) {
-    return Math.floor(Math.random() * Math.floor(max));
-}
-
-export function getRandomCardsToDisplay(lockedCards: number[]) {
-    let randomCardIndexes: number[];
-    randomCardIndexes = [...lockedCards];
-    // TODO maybe we should be using a set instead of an Array?
-    while (randomCardIndexes.length < 10) {
-        const randomInt = getRandomInt(AllCards.length);
-        if (randomCardIndexes.indexOf(randomInt) === -1) {
-            randomCardIndexes.push(randomInt);
-        }
-    }
-    return randomCardIndexes;
-}
