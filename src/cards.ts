@@ -9,6 +9,9 @@ export interface Card {
     name: string;
     imageUrl: string;
     set: Expansion;
+    type: string;
+    removed: boolean;
+    boxPosition?: number;
 }
 
 /**
@@ -25,8 +28,32 @@ const sets = CardInfo.reduce(
     {} as Dictionary<Expansion>
 );
 
-export const AllCards: Card[] = CardInfo.map(card => ({
+const PROMO_CARD_SET_NAME = 'Promo';
+
+function IsOwnedKingdomCard(card: Card): boolean {
+    if (
+        card.set !== sets['Dark Ages']! &&
+        card.type === 'kingdom' &&
+        !(
+            card.set === sets[PROMO_CARD_SET_NAME] &&
+            card.name !== 'Walled Village' &&
+            card.name !== 'Stash'
+        ) &&
+        !(card.set === sets['Intrigue 2nd Edition'] && card.removed)
+    ) {
+        return true;
+    }
+    return false;
+}
+
+const AllCards: Card[] = CardInfo.map(card => ({
     name: card.name,
     imageUrl: card.image,
-    set: sets[card.set]!
+    set: sets[card.set]!,
+    type: card.type,
+    removed: card.status === 'removed'
 }));
+
+export const KingdomCardsOwned: Card[] = AllCards.filter((card, index) =>
+    IsOwnedKingdomCard(card)
+);
