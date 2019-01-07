@@ -29,7 +29,8 @@ $card-margin: 1em;
         width: $card-width;
         min-height: $card-margin;
 
-        margin: 1em;
+        margin: 0.25em;
+        padding: 0px;
 
         &:before {
             content: '';
@@ -61,18 +62,13 @@ $card-margin: 1em;
         }
 
         .info-block {
-            padding-top: 15px;
-            padding-bottom: 5px;
-            padding-right: 15px;
-            text-align: right;
-
-            > * {
-                padding-left: 10px;
-            }
+            padding: 5px;
+            text-align: center;
 
             > .info-value {
                 font-weight: bold;
-                padding-left: 5px;
+                padding-left: 2px;
+                padding-right: 5px;
             }
         }
 
