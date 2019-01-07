@@ -1,6 +1,13 @@
 import { CardInfo } from './data/card-info';
 import { Dictionary } from './models/dictionary';
 
+const SET_NAME_PROMO_CARDS = 'Promo';
+const SET_NAME_DARK_AGES = 'Dark Ages';
+const SET_NAME_INTRIGUE = 'Intrigue 2nd Edition';
+const SET_TYPE_KINGDOM = 'kingdom';
+const PROMO_CARD_WALLED_VILLAGE = 'Walled Village';
+const PROMO_CARD_STASH = 'Stash';
+
 export interface Expansion {
     name: string;
 }
@@ -28,18 +35,16 @@ const sets = CardInfo.reduce(
     {} as Dictionary<Expansion>
 );
 
-const PROMO_CARD_SET_NAME = 'Promo';
-
 function IsOwnedKingdomCard(card: Card): boolean {
     if (
-        card.set !== sets['Dark Ages']! &&
-        card.type === 'kingdom' &&
+        card.set !== sets[SET_NAME_DARK_AGES]! &&
+        card.type === SET_TYPE_KINGDOM &&
         !(
-            card.set === sets[PROMO_CARD_SET_NAME] &&
-            card.name !== 'Walled Village' &&
-            card.name !== 'Stash'
+            card.set === sets[SET_NAME_PROMO_CARDS] &&
+            card.name !== PROMO_CARD_WALLED_VILLAGE &&
+            card.name !== PROMO_CARD_STASH
         ) &&
-        !(card.set === sets['Intrigue 2nd Edition'] && card.removed)
+        !(card.set === sets[SET_NAME_INTRIGUE] && card.removed)
     ) {
         return true;
     }
