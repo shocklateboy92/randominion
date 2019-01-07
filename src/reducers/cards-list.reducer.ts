@@ -35,6 +35,8 @@ export function cardsList(
                 lockedCards: ImmutableSet()
             };
         case getType(AllActions.randomize):
+        case getType(AllActions.redo):
+        case getType(AllActions.undo):
             // Keep track of locked cards
             const lockedCardNumbers = new Set();
             for (const i of state.lockedCards) {
@@ -61,13 +63,6 @@ export function cardsList(
                 lockedCards: ImmutableSet(lockedCadsNew)
             };
         default:
-            return {
-                ...state,
-                currentCards: currentCards(
-                    state.currentCards,
-                    action,
-                    state.lockedCards
-                )
-            };
+            return state;
     }
 }
