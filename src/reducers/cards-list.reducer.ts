@@ -1,11 +1,11 @@
-import { Set } from 'immutable';
+import { Set as ImmutableSet } from 'immutable';
 import { AllActions, RootAction } from 'src/actions';
 import { getType } from 'typesafe-actions';
 import { currentCards } from './currentCards.reducer';
 
 interface IRootState {
     currentCards: ReturnType<typeof currentCards>;
-    lockedCards: Set<UiIndex>;
+    lockedCards: ImmutableSet<UiIndex>;
 }
 
 /**
@@ -15,7 +15,7 @@ export type UiIndex = number;
 
 const initialState = {
     currentCards: undefined!,
-    lockedCards: Set()
+    lockedCards: ImmutableSet()
 };
 export function cardsList(
     state: IRootState = initialState,
@@ -32,7 +32,33 @@ export function cardsList(
         case getType(AllActions.unlockAll):
             return {
                 ...state,
-                lockedCards: Set()
+                lockedCards: ImmutableSet()
+            };
+        case getType(AllActions.randomize):
+            // Keep track of locked cards
+            const lockedCardNumbers = new Set();
+            for (const i of state.lockedCards) {
+                lockedCardNumbers.add(state.currentCards.present[i]);
+            }
+
+            const currentCardsNew = currentCards(
+                state.currentCards,
+                action,
+                lockedCardNumbers
+            );
+
+            // Re Lock Cards
+            const lockedCadsNew = new Set();
+            for (const i in currentCardsNew.present) {
+                if (lockedCardNumbers.has(currentCardsNew.present[i])) {
+                    lockedCadsNew.add(parseInt(i, 10));
+                }
+            }
+
+            return {
+                ...state,
+                currentCards: currentCardsNew,
+                lockedCards: ImmutableSet(lockedCadsNew)
             };
         default:
             return {

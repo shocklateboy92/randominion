@@ -1,13 +1,29 @@
 import { AllActions, RootAction } from 'src/actions';
-import { CardIndex, getCardsToDisplay } from 'src/cards';
+import { CardIndex, OwnedKingdomCards } from 'src/cards';
 import { getType } from 'typesafe-actions';
 import { UiIndex } from './cards-list.reducer';
-import { Set } from 'immutable';
 import { withUndo } from './undo.enhancer';
 
 type ICurrentCardsState = CardIndex[];
 
-const initialState = getCardsToDisplay();
+const KINGDOM_CARDS_REQUIRED = 10;
+const initialState = getRandomCardsToDisplay(new Set());
+
+function getRandomInt(max: number) {
+    return Math.floor(Math.random() * Math.floor(max));
+}
+
+function getRandomCardsToDisplay(lockedCards: Set<number>): number[] {
+    let randomCardIndices: Set<number> = new Set(lockedCards);
+
+    while (randomCardIndices.size < KINGDOM_CARDS_REQUIRED) {
+        const randomInt = getRandomInt(OwnedKingdomCards.length);
+        if (!randomCardIndices.has(randomInt)) {
+            randomCardIndices = randomCardIndices.add(randomInt);
+        }
+    }
+    return Array.from(randomCardIndices).sort((a, b) => a - b);
+}
 
 function currentCardsReducer(
     state: ICurrentCardsState = initialState,
@@ -16,10 +32,7 @@ function currentCardsReducer(
 ) {
     switch (action.type) {
         case getType(AllActions.randomize):
-            return state
-                .map(a => ({ sort: Math.random(), value: a }))
-                .sort((a, b) => a.sort - b.sort)
-                .map(a => a.value);
+            return getRandomCardsToDisplay(lockedCards);
 
         default:
             return state;

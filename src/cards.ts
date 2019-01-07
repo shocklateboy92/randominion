@@ -1,6 +1,13 @@
 import { CardInfo } from './data/card-info';
 import { Dictionary } from './models/dictionary';
 
+const SET_NAME_PROMO_CARDS = 'Promo';
+const SET_NAME_DARK_AGES = 'Dark Ages';
+const SET_NAME_INTRIGUE = 'Intrigue 2nd Edition';
+const SET_TYPE_KINGDOM = 'kingdom';
+const PROMO_CARD_WALLED_VILLAGE = 'Walled Village';
+const PROMO_CARD_STASH = 'Stash';
+
 export interface Expansion {
     name: string;
 }
@@ -9,6 +16,9 @@ export interface Card {
     name: string;
     imageUrl: string;
     set: Expansion;
+    type: string;
+    removed: boolean;
+    boxPosition?: number;
 }
 
 /**
@@ -25,14 +35,30 @@ const sets = CardInfo.reduce(
     {} as Dictionary<Expansion>
 );
 
-export const AllCards: Card[] = CardInfo.map(card => ({
+function IsKingdomCardOwned(card: Card): boolean {
+    if (
+        card.set !== sets[SET_NAME_DARK_AGES]! &&
+        card.type === SET_TYPE_KINGDOM &&
+        !(
+            card.set === sets[SET_NAME_PROMO_CARDS] &&
+            card.name !== PROMO_CARD_WALLED_VILLAGE &&
+            card.name !== PROMO_CARD_STASH
+        ) &&
+        !(card.set === sets[SET_NAME_INTRIGUE] && card.removed)
+    ) {
+        return true;
+    }
+    return false;
+}
+
+const AllCards: Card[] = CardInfo.map(card => ({
     name: card.name,
     imageUrl: card.image,
-    set: sets[card.set]!
+    set: sets[card.set]!,
+    type: card.type,
+    removed: card.status === 'removed'
 }));
 
-export function getCardsToDisplay() {
-    return Array(10)
-        .fill(1) /* Not sure why this is needed O_o */
-        .map(_ => Math.floor(Math.random() * AllCards.length));
-}
+export const OwnedKingdomCards: Card[] = AllCards.filter((card, index) =>
+    IsKingdomCardOwned(card)
+);
