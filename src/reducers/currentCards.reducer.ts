@@ -22,7 +22,7 @@ function getRandomCardsToDisplay(lockedCards: Set<number>): number[] {
             randomCardIndices = randomCardIndices.add(randomInt);
         }
     }
-    return Array.from(randomCardIndices);
+    return Array.from(randomCardIndices).sort((a, b) => a - b);
 }
 
 function currentCardsReducer(
@@ -32,7 +32,7 @@ function currentCardsReducer(
 ) {
     switch (action.type) {
         case getType(AllActions.randomize):
-            return getRandomCardsToDisplay(lockedCards).sort((a, b) => a - b);
+            return getRandomCardsToDisplay(lockedCards);
 
         default:
             return state;
