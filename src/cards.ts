@@ -1,6 +1,5 @@
 import { CardInfo } from './data/card-info';
 import { Dictionary } from './models/dictionary';
-// import { Set } from 'immutable';
 
 export interface Expansion {
     name: string;
