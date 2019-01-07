@@ -2,34 +2,33 @@ import { AllActions, RootAction } from 'src/actions';
 import { CardIndex, KingdomCardsOwned } from 'src/cards';
 import { getType } from 'typesafe-actions';
 import { UiIndex } from './cards-list.reducer';
-import { Set as ImmutableSet } from 'immutable';
 import { withUndo } from './undo.enhancer';
 
 type ICurrentCardsState = CardIndex[];
 
 const KINGDOM_CARDS_REQUIRED = 10;
-const initialState = getRandomCardsToDisplay(ImmutableSet());
+const initialState = getRandomCardsToDisplay(new Set());
 
 function getRandomInt(max: number) {
     return Math.floor(Math.random() * Math.floor(max));
 }
 
-function getRandomCardsToDisplay(lockedCards: ImmutableSet<number>): number[] {
-    let randomCardIndices: ImmutableSet<number> = lockedCards;
+function getRandomCardsToDisplay(lockedCards: Set<number>): number[] {
+    let randomCardIndices: Set<number> = new Set(lockedCards);
 
     while (randomCardIndices.size < KINGDOM_CARDS_REQUIRED) {
         const randomInt = getRandomInt(KingdomCardsOwned.length);
-        if (!randomCardIndices.contains(randomInt)) {
+        if (!randomCardIndices.has(randomInt)) {
             randomCardIndices = randomCardIndices.add(randomInt);
         }
     }
-    return randomCardIndices.toJS();
+    return Array.from(randomCardIndices);
 }
 
 function currentCardsReducer(
     state: ICurrentCardsState = initialState,
     action: RootAction,
-    lockedCards: ImmutableSet<UiIndex>
+    lockedCards: Set<UiIndex>
 ) {
     switch (action.type) {
         case getType(AllActions.randomize):
