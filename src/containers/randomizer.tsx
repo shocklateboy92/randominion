@@ -7,6 +7,8 @@ import CardsList from 'src/components/cards-list';
 import { IRootState } from 'src/reducers';
 import { canRedo, canUndo } from 'src/selectors/undo.selectors';
 import '../styles/randomizer.scss';
+import '../styles/button.scss';
+import classNames from 'classnames';
 
 interface IRandomizerProps {
     randomize: () => void;
@@ -21,14 +23,14 @@ interface IRandomizerProps {
 const Component: React.SFC<IRandomizerProps> = props => (
     <div className='randomizer'>
         <div className='toolbar'>
-            <button onClick={props.randomize}>Randomize</button>
-            <button onClick={props.unlockAll}>Unlock All</button>
-            <button disabled={!props.canUndo} onClick={props.undo}>
-                Undo
-            </button>
-            <button disabled={!props.canRedo} onClick={props.redo}>
-                Redo
-            </button>
+            <div className='btn-container btn btn-one' onClick={props.randomize}><span>Randomize</span></div>
+            <div className='btn-container btn btn-one' onClick={props.unlockAll}><span>Unlock All</span></div>
+            <div className={classNames('btn-container btn btn-one', { 'disabled': !props.canUndo })} onClick={props.undo}>
+                <span>Undo</span>
+            </div>
+            <div className={classNames('btn-container btn btn-one', { 'disabled': !props.canRedo })} onClick={props.redo}>
+                <span>Redo</span>
+            </div>
         </div>
         <div className='container'>
             <CardsList />
