@@ -3,8 +3,8 @@
         display: flex;
         flex-wrap: nowrap;
         justify-content: center;
-        align-content: center;
-        align-items: center;
+        align-content: flex-end;
+        align-items: flex-start;
         position: relative;
         flex-direction: row;
         width: 80%;
