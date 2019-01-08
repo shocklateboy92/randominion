@@ -10,9 +10,11 @@ $card-margin: 1em;
 }
 
 .cards-list {
-    position: relative;
-    display: inline-block;
-    max-width: (($card-margin * 2) + $card-width) * 5;
+    @media (max-width: 1400px) {
+        position: relative;
+        display: inline-block;
+        max-width: (($card-margin * 2) + $card-width) * 5;
+    }
 
     .card {
         display: inline-block;

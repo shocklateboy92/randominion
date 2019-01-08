@@ -13,8 +13,9 @@
         z-index: 2;
         background-color: darken($background-color,20%);
     }
-
-    .container {
+    
+    @media (max-width: 1400px) 
+    {
         .card-info-pane {
             width: 30%;
         }
@@ -23,4 +24,5 @@
             width: 70%;
         }
     }
+
 }
