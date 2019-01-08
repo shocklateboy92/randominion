@@ -9,7 +9,7 @@ import '../styles/card-info-pane.scss';
 const Component: React.SFC<{ card?: Card }> = props => (
     <>
         {props.card && (
-            <div className='card-info-pane'>
+            <div className='card-info-pane col'>
                 <img src={props.card.imageUrl} />
             </div>
         )}

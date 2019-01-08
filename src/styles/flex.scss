@@ -1,0 +1,9 @@
+.row {
+    display: flex;
+}
+
+@media (min-width: 1000px){
+    .col {
+        flex: 1;
+    }
+}

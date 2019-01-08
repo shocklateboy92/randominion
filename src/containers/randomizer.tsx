@@ -8,6 +8,7 @@ import { IRootState } from 'src/reducers';
 import { canRedo, canUndo } from 'src/selectors/undo.selectors';
 import '../styles/randomizer.scss';
 import '../styles/button.scss';
+import '../styles/flex.scss';
 import classNames from 'classnames';
 
 interface IRandomizerProps {
@@ -52,7 +53,7 @@ const Component: React.SFC<IRandomizerProps> = props => (
                 <span>Redo</span>
             </span>
         </div>
-        <div className='container'>
+        <div className='container row'>
             <CardsList />
             <CardInfoPane />
         </div>

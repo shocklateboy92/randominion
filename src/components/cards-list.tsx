@@ -13,7 +13,7 @@ interface CardsListProps {
 }
 
 const CardsListComponent: React.SFC<CardsListProps> = props => (
-    <div className='cards-list'>
+    <div className='cards-list col'>
         <FlipMove typeName={null}>
             {props.cardsToDisplay.map((card, index) => (
                 <CardDisplay key={card.name} uiIndex={index} />
