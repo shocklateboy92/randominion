@@ -4,413 +4,578 @@ export const CardInfo = [
         "image": "http://wiki.dominionstrategy.com/images/6/6d/Abandoned_Mine.jpg",
         "set": "Dark Ages",
         "type": "ruin",
-        "name": "Abandoned Mine"
+        "name": "Abandoned Mine",
+        "cost": {
+            "treasure": 0
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/d9/Academy.jpg",
         "set": "Renaissance",
         "type": "project",
-        "name": "Academy"
+        "name": "Academy",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/9/90/Acting_Troupe.jpg",
         "set": "Renaissance",
         "type": "kingdom",
-        "name": "Acting Troupe"
+        "name": "Acting Troupe",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/37/Advance.jpg",
         "set": "Empires",
         "type": "event",
-        "name": "Advance"
+        "name": "Advance",
+        "cost": {
+            "treasure": 0
+        }
     },
     {
         "status": "removed",
         "image": "http://wiki.dominionstrategy.com/images/7/71/Adventurer.jpg",
         "set": "Dominion 1st Edition",
         "type": "kingdom",
-        "name": "Adventurer"
+        "name": "Adventurer",
+        "cost": {
+            "treasure": 6
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/5/5e/Advisor.jpg",
         "set": "Guilds",
         "type": "kingdom",
-        "name": "Advisor"
+        "name": "Advisor",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/2/22/Alchemist.jpg",
         "set": "Alchemy",
         "type": "kingdom",
-        "name": "Alchemist"
+        "name": "Alchemist",
+        "cost": {
+            "treasure": 3,
+            "potion": 1
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/a/ac/Alms.jpg",
         "set": "Adventures",
         "type": "event",
-        "name": "Alms"
+        "name": "Alms",
+        "cost": {
+            "treasure": 0
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/b/b3/Altar.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Altar"
+        "name": "Altar",
+        "cost": {
+            "treasure": 6
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/74/Ambassador.jpg",
         "set": "Seaside",
         "type": "kingdom",
-        "name": "Ambassador"
+        "name": "Ambassador",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/5/50/Amulet.jpg",
         "set": "Adventures",
         "type": "kingdom",
-        "name": "Amulet"
+        "name": "Amulet",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/b/be/Annex.jpg",
         "set": "Empires",
         "type": "event",
-        "name": "Annex"
+        "name": "Annex",
+        "cost": {
+            "debt": 8
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/6/69/Apothecary.jpg",
         "set": "Alchemy",
         "type": "kingdom",
-        "name": "Apothecary"
+        "name": "Apothecary",
+        "cost": {
+            "treasure": 2,
+            "potion": 1
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/2/20/Apprentice.jpg",
         "set": "Alchemy",
         "type": "kingdom",
-        "name": "Apprentice"
+        "name": "Apprentice",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/3f/Aqueduct.jpg",
         "set": "Empires",
         "type": "landmark",
-        "name": "Aqueduct"
+        "name": "Aqueduct",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/2/26/Archive.jpg",
         "set": "Empires",
         "type": "kingdom",
-        "name": "Archive"
+        "name": "Archive",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/36/Arena.jpg",
         "set": "Empires",
         "type": "landmark",
-        "name": "Arena"
+        "name": "Arena",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/a/a7/Armory.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Armory"
+        "name": "Armory",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/0/01/Artificer.jpg",
         "set": "Adventures",
         "type": "kingdom",
-        "name": "Artificer"
+        "name": "Artificer",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/1/1d/Artisan.jpg",
         "set": "Dominion 1st Edition",
         "type": "kingdom",
-        "name": "Artisan"
+        "name": "Artisan",
+        "cost": {
+            "treasure": 6
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/7c/Bad_Omens.jpg",
         "set": "Nocturne",
         "type": "hex",
-        "name": "Bad Omens"
+        "name": "Bad Omens",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/b/b4/Bag_of_Gold.jpg",
         "set": "Cornucopia",
         "type": "prize",
-        "name": "Bag of Gold"
+        "name": "Bag of Gold",
+        "cost": {
+            "treasure": 0
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/b/b9/Baker.jpg",
         "set": "Guilds",
         "type": "kingdom",
-        "name": "Baker"
+        "name": "Baker",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/df/Ball.jpg",
         "set": "Adventures",
         "type": "event",
-        "name": "Ball"
+        "name": "Ball",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/5/51/Band_of_Misfits.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Band of Misfits"
+        "name": "Band of Misfits",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/4/46/Bandit.jpg",
         "set": "Dominion 1st Edition",
         "type": "kingdom",
-        "name": "Bandit"
+        "name": "Bandit",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/4/43/Bandit_Camp.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Bandit Camp"
+        "name": "Bandit Camp",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/4/42/Bandit_Fort.jpg",
         "set": "Empires",
         "type": "landmark",
-        "name": "Bandit Fort"
+        "name": "Bandit Fort",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/78/Bank.jpg",
         "set": "Prosperity",
         "type": "kingdom",
-        "name": "Bank"
+        "name": "Bank",
+        "cost": {
+            "treasure": 7
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/e4/Banquet.jpg",
         "set": "Empires",
         "type": "event",
-        "name": "Banquet"
+        "name": "Banquet",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/ee/Bard.jpg",
         "set": "Nocturne",
         "type": "kingdom",
-        "name": "Bard"
+        "name": "Bard",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/73/Baron.jpg",
         "set": "Intrigue 2nd Edition",
         "type": "kingdom",
-        "name": "Baron"
+        "name": "Baron",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/8/8d/Barracks.jpg",
         "set": "Renaissance",
         "type": "project",
-        "name": "Barracks"
+        "name": "Barracks",
+        "cost": {
+            "treasure": 6
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/5/54/Basilica.jpg",
         "set": "Empires",
         "type": "landmark",
-        "name": "Basilica"
+        "name": "Basilica",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/2/20/Bat.jpg",
         "set": "Nocturne",
         "type": "notSupply",
-        "name": "Bat"
+        "name": "Bat",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/a/a9/Baths.jpg",
         "set": "Empires",
         "type": "landmark",
-        "name": "Baths"
+        "name": "Baths",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/b/b0/Battlefield.jpg",
         "set": "Empires",
         "type": "landmark",
-        "name": "Battlefield"
+        "name": "Battlefield",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/f/f7/Bazaar.jpg",
         "set": "Seaside",
         "type": "kingdom",
-        "name": "Bazaar"
+        "name": "Bazaar",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/2/2f/Beggar.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Beggar"
+        "name": "Beggar",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/b/b4/Bishop.jpg",
         "set": "Prosperity",
         "type": "kingdom",
-        "name": "Bishop"
+        "name": "Bishop",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/f/fa/Black_Market.jpg",
         "set": "Promo",
         "type": "kingdom",
-        "name": "Black Market"
+        "name": "Black Market",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/e4/Blessed_Village.jpg",
         "set": "Nocturne",
         "type": "kingdom",
-        "name": "Blessed Village"
+        "name": "Blessed Village",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/9/90/Bonfire.jpg",
         "set": "Adventures",
         "type": "event",
-        "name": "Bonfire"
+        "name": "Bonfire",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/8/88/Border_Guard.jpg",
         "set": "Renaissance",
         "type": "kingdom",
-        "name": "Border Guard"
+        "name": "Border Guard",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/dd/Border_Village.jpg",
         "set": "Hinterlands",
         "type": "kingdom",
-        "name": "Border Village"
+        "name": "Border Village",
+        "cost": {
+            "treasure": 6
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/8/88/Borrow.jpg",
         "set": "Adventures",
         "type": "event",
-        "name": "Borrow"
+        "name": "Borrow",
+        "cost": {
+            "treasure": 0
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/39/Bridge.jpg",
         "set": "Intrigue 2nd Edition",
         "type": "kingdom",
-        "name": "Bridge"
+        "name": "Bridge",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/77/Bridge_Troll.jpg",
         "set": "Adventures",
         "type": "kingdom",
-        "name": "Bridge Troll"
+        "name": "Bridge Troll",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/4/4d/Bureaucrat.jpg",
         "set": "Dominion 1st Edition",
         "type": "kingdom",
-        "name": "Bureaucrat"
+        "name": "Bureaucrat",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/ed/Butcher.jpg",
         "set": "Guilds",
         "type": "kingdom",
-        "name": "Butcher"
+        "name": "Butcher",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/6/66/Cache.jpg",
         "set": "Hinterlands",
         "type": "kingdom",
-        "name": "Cache"
+        "name": "Cache",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/0/09/Canal.jpg",
         "set": "Renaissance",
         "type": "project",
-        "name": "Canal"
+        "name": "Canal",
+        "cost": {
+            "treasure": 7
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/2/2c/Candlestick_Maker.jpg",
         "set": "Guilds",
         "type": "kingdom",
-        "name": "Candlestick Maker"
+        "name": "Candlestick Maker",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/eb/Capital.jpg",
         "set": "Empires",
         "type": "kingdom",
-        "name": "Capital"
+        "name": "Capital",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/3d/Capitalism.jpg",
         "set": "Renaissance",
         "type": "project",
-        "name": "Capitalism"
+        "name": "Capitalism",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/c/c8/Caravan.jpg",
         "set": "Seaside",
         "type": "kingdom",
-        "name": "Caravan"
+        "name": "Caravan",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/f/fa/Caravan_Guard.jpg",
         "set": "Adventures",
         "type": "kingdom",
-        "name": "Caravan Guard"
+        "name": "Caravan Guard",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/b/ba/Cargo_Ship.jpg",
         "set": "Renaissance",
         "type": "kingdom",
-        "name": "Cargo Ship"
+        "name": "Cargo Ship",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/d6/Cartographer.jpg",
         "set": "Hinterlands",
         "type": "kingdom",
-        "name": "Cartographer"
+        "name": "Cartographer",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
@@ -424,7 +589,10 @@ export const CardInfo = [
         "image": "http://wiki.dominionstrategy.com/images/c/cd/Catacombs.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Catacombs"
+        "name": "Catacombs",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
@@ -438,455 +606,642 @@ export const CardInfo = [
         "image": "http://wiki.dominionstrategy.com/images/c/c5/Cathedral.jpg",
         "set": "Renaissance",
         "type": "project",
-        "name": "Cathedral"
+        "name": "Cathedral",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/1/1c/Cellar.jpg",
         "set": "Dominion 1st Edition",
         "type": "kingdom",
-        "name": "Cellar"
+        "name": "Cellar",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/1/18/Cemetery.jpg",
         "set": "Nocturne",
         "type": "kingdom",
-        "name": "Cemetery"
+        "name": "Cemetery",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/4/41/Champion.jpg",
         "set": "Adventures",
         "type": "traveller",
-        "name": "Champion"
+        "name": "Champion",
+        "cost": {
+            "treasure": 6
+        }
     },
     {
         "status": "removed",
         "image": "http://wiki.dominionstrategy.com/images/b/b7/Chancellor.jpg",
         "set": "Dominion 1st Edition",
         "type": "kingdom",
-        "name": "Chancellor"
+        "name": "Chancellor",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/e9/Changeling.jpg",
         "set": "Nocturne",
         "type": "kingdom",
-        "name": "Changeling"
+        "name": "Changeling",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/2/29/Chapel.jpg",
         "set": "Dominion 1st Edition",
         "type": "kingdom",
-        "name": "Chapel"
+        "name": "Chapel",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/7c/Chariot_Race.jpg",
         "set": "Empires",
         "type": "kingdom",
-        "name": "Chariot Race"
+        "name": "Chariot Race",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/de/Charm.jpg",
         "set": "Empires",
         "type": "kingdom",
-        "name": "Charm"
+        "name": "Charm",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/a/a2/Citadel.jpg",
         "set": "Renaissance",
         "type": "project",
-        "name": "Citadel"
+        "name": "Citadel",
+        "cost": {
+            "treasure": 8
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/30/City.jpg",
         "set": "Prosperity",
         "type": "kingdom",
-        "name": "City"
+        "name": "City",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/1/11/City_Gate.jpg",
         "set": "Renaissance",
         "type": "project",
-        "name": "City Gate"
+        "name": "City Gate",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/4/4e/City_Quarter.jpg",
         "set": "Empires",
         "type": "kingdom",
-        "name": "City Quarter"
+        "name": "City Quarter",
+        "cost": {
+            "debt": 8
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/5/51/Cobbler.jpg",
         "set": "Nocturne",
         "type": "kingdom",
-        "name": "Cobbler"
+        "name": "Cobbler",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/76/Coin_of_the_Realm.jpg",
         "set": "Adventures",
         "type": "kingdom",
-        "name": "Coin of the Realm"
+        "name": "Coin of the Realm",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/e3/Colonnade.jpg",
         "set": "Empires",
         "type": "landmark",
-        "name": "Colonnade"
+        "name": "Colonnade",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/1/1f/Conclave.jpg",
         "set": "Nocturne",
         "type": "kingdom",
-        "name": "Conclave"
+        "name": "Conclave",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/0/08/Conquest.jpg",
         "set": "Empires",
         "type": "event",
-        "name": "Conquest"
+        "name": "Conquest",
+        "cost": {
+            "treasure": 6
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/4/42/Conspirator.jpg",
         "set": "Intrigue 2nd Edition",
         "type": "kingdom",
-        "name": "Conspirator"
+        "name": "Conspirator",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/5/58/Contraband.jpg",
         "set": "Prosperity",
         "type": "kingdom",
-        "name": "Contraband"
+        "name": "Contraband",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "removed",
         "image": "http://wiki.dominionstrategy.com/images/4/40/Coppersmith.jpg",
         "set": "Intrigue 2nd Edition",
         "type": "kingdom",
-        "name": "Coppersmith"
+        "name": "Coppersmith",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/e0/Council_Room.jpg",
         "set": "Dominion 1st Edition",
         "type": "kingdom",
-        "name": "Council Room"
+        "name": "Council Room",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/a/a1/Count.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Count"
+        "name": "Count",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/2/28/Counterfeit.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Counterfeit"
+        "name": "Counterfeit",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/5/5d/Counting_House.jpg",
         "set": "Prosperity",
         "type": "kingdom",
-        "name": "Counting House"
+        "name": "Counting House",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/7c/Courtier.jpg",
         "set": "Intrigue 2nd Edition",
         "type": "kingdom",
-        "name": "Courtier"
+        "name": "Courtier",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/30/Courtyard.jpg",
         "set": "Intrigue 2nd Edition",
         "type": "kingdom",
-        "name": "Courtyard"
+        "name": "Courtyard",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/1/15/Crop_Rotation.jpg",
         "set": "Renaissance",
         "type": "project",
-        "name": "Crop Rotation"
+        "name": "Crop Rotation",
+        "cost": {
+            "treasure": 6
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/c/cd/Crossroads.jpg",
         "set": "Hinterlands",
         "type": "kingdom",
-        "name": "Crossroads"
+        "name": "Crossroads",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/9/91/Crown.jpg",
         "set": "Empires",
         "type": "kingdom",
-        "name": "Crown"
+        "name": "Crown",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/6/65/Crumbling_Castle.jpg",
         "set": "Empires",
         "type": "castle",
-        "name": "Crumbling Castle"
+        "name": "Crumbling Castle",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/8/84/Crypt.jpg",
         "set": "Nocturne",
         "type": "kingdom",
-        "name": "Crypt"
+        "name": "Crypt",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/1/18/Cultist.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Cultist"
+        "name": "Cultist",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/db/Cursed_Gold.jpg",
         "set": "Nocturne",
         "type": "heirloom",
-        "name": "Cursed Gold"
+        "name": "Cursed Gold",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/c/c9/Cursed_Village.jpg",
         "set": "Nocturne",
         "type": "kingdom",
-        "name": "Cursed Village"
+        "name": "Cursed Village",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/7d/Cutpurse.jpg",
         "set": "Seaside",
         "type": "kingdom",
-        "name": "Cutpurse"
+        "name": "Cutpurse",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/a/ad/Dame_Anna.jpg",
         "set": "Dark Ages",
         "type": "knight",
-        "name": "Dame Anna"
+        "name": "Dame Anna",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/dd/Dame_Josephine.jpg",
         "set": "Dark Ages",
         "type": "knight",
-        "name": "Dame Josephine"
+        "name": "Dame Josephine",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/1/10/Dame_Molly.jpg",
         "set": "Dark Ages",
         "type": "knight",
-        "name": "Dame Molly"
+        "name": "Dame Molly",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/8/85/Dame_Natalie.jpg",
         "set": "Dark Ages",
         "type": "knight",
-        "name": "Dame Natalie"
+        "name": "Dame Natalie",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/c/c3/Dame_Sylvia.jpg",
         "set": "Dark Ages",
         "type": "knight",
-        "name": "Dame Sylvia"
+        "name": "Dame Sylvia",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/5/50/Death_Cart.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Death Cart"
+        "name": "Death Cart",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/dd/Defiled_Shrine.jpg",
         "set": "Empires",
         "type": "landmark",
-        "name": "Defiled Shrine"
+        "name": "Defiled Shrine",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/9/9b/Deluded.jpg",
         "set": "Nocturne",
         "type": "state",
-        "name": "Deluded"
+        "name": "Deluded",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/ec/Delusion.jpg",
         "set": "Nocturne",
         "type": "hex",
-        "name": "Delusion"
+        "name": "Delusion",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/9/9d/Delve.jpg",
         "set": "Empires",
         "type": "event",
-        "name": "Delve"
+        "name": "Delve",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/d7/Den_of_Sin.jpg",
         "set": "Nocturne",
         "type": "kingdom",
-        "name": "Den of Sin"
+        "name": "Den of Sin",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/f/f7/Develop.jpg",
         "set": "Hinterlands",
         "type": "kingdom",
-        "name": "Develop"
+        "name": "Develop",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/0/07/Devil%27s_Workshop.jpg",
         "set": "Nocturne",
         "type": "kingdom",
-        "name": "Devil's Workshop"
+        "name": "Devil's Workshop",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/35/Diadem.jpg",
         "set": "Cornucopia",
         "type": "prize",
-        "name": "Diadem"
+        "name": "Diadem",
+        "cost": {
+            "treasure": 0
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/8/85/Diplomat.jpg",
         "set": "Intrigue 2nd Edition",
         "type": "kingdom",
-        "name": "Diplomat"
+        "name": "Diplomat",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/9/92/Disciple.jpg",
         "set": "Adventures",
         "type": "traveller",
-        "name": "Disciple"
+        "name": "Disciple",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/c/c5/Dismantle.jpg",
         "set": "Promo",
         "type": "kingdom",
-        "name": "Dismantle"
+        "name": "Dismantle",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/3e/Distant_Lands.jpg",
         "set": "Adventures",
         "type": "kingdom",
-        "name": "Distant Lands"
+        "name": "Distant Lands",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/b/b2/Doctor.jpg",
         "set": "Guilds",
         "type": "kingdom",
-        "name": "Doctor"
+        "name": "Doctor",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/c/c9/Dominate.jpg",
         "set": "Empires",
         "type": "event",
-        "name": "Dominate"
+        "name": "Dominate",
+        "cost": {
+            "treasure": 14
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/4/42/Donate.jpg",
         "set": "Empires",
         "type": "event",
-        "name": "Donate"
+        "name": "Donate",
+        "cost": {
+            "debt": 8
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/f/f0/Druid.jpg",
         "set": "Nocturne",
         "type": "kingdom",
-        "name": "Druid"
+        "name": "Druid",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/dc/Ducat.jpg",
         "set": "Renaissance",
         "type": "kingdom",
-        "name": "Ducat"
+        "name": "Ducat",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/df/Duchess.jpg",
         "set": "Hinterlands",
         "type": "kingdom",
-        "name": "Duchess"
+        "name": "Duchess",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/1/10/Duke.jpg",
         "set": "Intrigue 2nd Edition",
         "type": "kingdom",
-        "name": "Duke"
+        "name": "Duke",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/1/1e/Dungeon.jpg",
         "set": "Adventures",
         "type": "kingdom",
-        "name": "Dungeon"
+        "name": "Dungeon",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/5/59/Duplicate.jpg",
         "set": "Adventures",
         "type": "kingdom",
-        "name": "Duplicate"
+        "name": "Duplicate",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/f/fb/Embargo.jpg",
         "set": "Seaside",
         "type": "kingdom",
-        "name": "Embargo"
+        "name": "Embargo",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/2/2f/Embassy.jpg",
         "set": "Hinterlands",
         "type": "kingdom",
-        "name": "Embassy"
+        "name": "Embassy",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
@@ -900,308 +1255,429 @@ export const CardInfo = [
         "image": "http://wiki.dominionstrategy.com/images/b/bb/Enchantress.jpg",
         "set": "Empires",
         "type": "kingdom",
-        "name": "Enchantress"
+        "name": "Enchantress",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/a/ab/Engineer.jpg",
         "set": "Empires",
         "type": "kingdom",
-        "name": "Engineer"
+        "name": "Engineer",
+        "cost": {
+            "debt": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/8/8c/Envious.jpg",
         "set": "Nocturne",
         "type": "state",
-        "name": "Envious"
+        "name": "Envious",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/0/0c/Envoy.jpg",
         "set": "Promo",
         "type": "kingdom",
-        "name": "Envoy"
+        "name": "Envoy",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/0/08/Envy.jpg",
         "set": "Nocturne",
         "type": "hex",
-        "name": "Envy"
+        "name": "Envy",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/5/51/Exorcist.jpg",
         "set": "Nocturne",
         "type": "kingdom",
-        "name": "Exorcist"
+        "name": "Exorcist",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/dc/Expand.jpg",
         "set": "Prosperity",
         "type": "kingdom",
-        "name": "Expand"
+        "name": "Expand",
+        "cost": {
+            "treasure": 7
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/e3/Expedition.jpg",
         "set": "Adventures",
         "type": "event",
-        "name": "Expedition"
+        "name": "Expedition",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/d3/Experiment.jpg",
         "set": "Renaissance",
         "type": "kingdom",
-        "name": "Experiment"
+        "name": "Experiment",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/8/8f/Exploration.jpg",
         "set": "Renaissance",
         "type": "project",
-        "name": "Exploration"
+        "name": "Exploration",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/3a/Explorer.jpg",
         "set": "Seaside",
         "type": "kingdom",
-        "name": "Explorer"
+        "name": "Explorer",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/77/Fair.jpg",
         "set": "Renaissance",
         "type": "project",
-        "name": "Fair"
+        "name": "Fair",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/7e/Fairgrounds.jpg",
         "set": "Cornucopia",
         "type": "kingdom",
-        "name": "Fairgrounds"
+        "name": "Fairgrounds",
+        "cost": {
+            "treasure": 6
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/6/60/Faithful_Hound.jpg",
         "set": "Nocturne",
         "type": "kingdom",
-        "name": "Faithful Hound"
+        "name": "Faithful Hound",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/4/48/Familiar.jpg",
         "set": "Alchemy",
         "type": "kingdom",
-        "name": "Familiar"
+        "name": "Familiar",
+        "cost": {
+            "treasure": 3,
+            "potion": 1
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/d4/Famine.jpg",
         "set": "Nocturne",
         "type": "hex",
-        "name": "Famine"
+        "name": "Famine",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/37/Farmers%27_Market.jpg",
         "set": "Empires",
         "type": "kingdom",
-        "name": "Farmers' Market"
+        "name": "Farmers' Market",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/5/51/Farming_Village.jpg",
         "set": "Cornucopia",
         "type": "kingdom",
-        "name": "Farming Village"
+        "name": "Farming Village",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/ea/Farmland.jpg",
         "set": "Hinterlands",
         "type": "kingdom",
-        "name": "Farmland"
+        "name": "Farmland",
+        "cost": {
+            "treasure": 6
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/0/00/Fear.jpg",
         "set": "Nocturne",
         "type": "hex",
-        "name": "Fear"
+        "name": "Fear",
+        "cost": {}
     },
     {
         "status": "removed",
         "image": "http://wiki.dominionstrategy.com/images/9/9c/Feast.jpg",
         "set": "Dominion 1st Edition",
         "type": "kingdom",
-        "name": "Feast"
+        "name": "Feast",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/1/1f/Feodum.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Feodum"
+        "name": "Feodum",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/d9/Ferry.jpg",
         "set": "Adventures",
         "type": "event",
-        "name": "Ferry"
+        "name": "Ferry",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/ec/Festival.jpg",
         "set": "Dominion 1st Edition",
         "type": "kingdom",
-        "name": "Festival"
+        "name": "Festival",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/3b/Fishing_Village.jpg",
         "set": "Seaside",
         "type": "kingdom",
-        "name": "Fishing Village"
+        "name": "Fishing Village",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/0/08/Flag.jpg",
         "set": "Renaissance",
         "type": "artifact",
-        "name": "Flag"
+        "name": "Flag",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/e4/Flag_Bearer.jpg",
         "set": "Renaissance",
         "type": "kingdom",
-        "name": "Flag Bearer"
+        "name": "Flag Bearer",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/2/29/Fleet.jpg",
         "set": "Renaissance",
         "type": "project",
-        "name": "Fleet"
+        "name": "Fleet",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/1/12/Followers.jpg",
         "set": "Cornucopia",
         "type": "prize",
-        "name": "Followers"
+        "name": "Followers",
+        "cost": {
+            "treasure": 0
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/d2/Fool.jpg",
         "set": "Nocturne",
         "type": "kingdom",
-        "name": "Fool"
+        "name": "Fool",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/ed/Fool%27s_Gold.jpg",
         "set": "Hinterlands",
         "type": "kingdom",
-        "name": "Fool's Gold"
+        "name": "Fool's Gold",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/e6/Forager.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Forager"
+        "name": "Forager",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/d7/Forge.jpg",
         "set": "Prosperity",
         "type": "kingdom",
-        "name": "Forge"
+        "name": "Forge",
+        "cost": {
+            "treasure": 7
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/8/8a/Fortress.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Fortress"
+        "name": "Fortress",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/5/55/Fortune_Teller.jpg",
         "set": "Cornucopia",
         "type": "kingdom",
-        "name": "Fortune Teller"
+        "name": "Fortune Teller",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/1/15/Forum.jpg",
         "set": "Empires",
         "type": "kingdom",
-        "name": "Forum"
+        "name": "Forum",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/ee/Fountain.jpg",
         "set": "Empires",
         "type": "landmark",
-        "name": "Fountain"
+        "name": "Fountain",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/b/bd/Fugitive.jpg",
         "set": "Adventures",
         "type": "traveller",
-        "name": "Fugitive"
+        "name": "Fugitive",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/8/8c/Gardens.jpg",
         "set": "Dominion 1st Edition",
         "type": "kingdom",
-        "name": "Gardens"
+        "name": "Gardens",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/ec/Gear.jpg",
         "set": "Adventures",
         "type": "kingdom",
-        "name": "Gear"
+        "name": "Gear",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/4/4d/Ghost.jpg",
         "set": "Nocturne",
         "type": "spirit",
-        "name": "Ghost"
+        "name": "Ghost",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/0/0a/Ghost_Ship.jpg",
         "set": "Seaside",
         "type": "kingdom",
-        "name": "Ghost Ship"
+        "name": "Ghost Ship",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/73/Ghost_Town.jpg",
         "set": "Nocturne",
         "type": "kingdom",
-        "name": "Ghost Town"
+        "name": "Ghost Town",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/4/4c/Giant.jpg",
         "set": "Adventures",
         "type": "kingdom",
-        "name": "Giant"
+        "name": "Giant",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
@@ -1215,917 +1691,1279 @@ export const CardInfo = [
         "image": "http://wiki.dominionstrategy.com/images/d/da/Goat.jpg",
         "set": "Nocturne",
         "type": "heirloom",
-        "name": "Goat"
+        "name": "Goat",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/dc/Golem.jpg",
         "set": "Alchemy",
         "type": "kingdom",
-        "name": "Golem"
+        "name": "Golem",
+        "cost": {
+            "treasure": 4,
+            "potion": 1
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/e2/Goons.jpg",
         "set": "Prosperity",
         "type": "kingdom",
-        "name": "Goons"
+        "name": "Goons",
+        "cost": {
+            "treasure": 6
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/a/a2/Governor.jpg",
         "set": "Promo",
         "type": "kingdom",
-        "name": "Governor"
+        "name": "Governor",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/f/f5/Grand_Castle.jpg",
         "set": "Empires",
         "type": "castle",
-        "name": "Grand Castle"
+        "name": "Grand Castle",
+        "cost": {
+            "treasure": 9
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/8/81/Grand_Market.jpg",
         "set": "Prosperity",
         "type": "kingdom",
-        "name": "Grand Market"
+        "name": "Grand Market",
+        "cost": {
+            "treasure": 6
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/1/13/Graverobber.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Graverobber"
+        "name": "Graverobber",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "removed",
         "image": "http://wiki.dominionstrategy.com/images/9/95/Great_Hall.jpg",
         "set": "Intrigue 2nd Edition",
         "type": "kingdom",
-        "name": "Great Hall"
+        "name": "Great Hall",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/9/95/Greed.jpg",
         "set": "Nocturne",
         "type": "hex",
-        "name": "Greed"
+        "name": "Greed",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/33/Groundskeeper.jpg",
         "set": "Empires",
         "type": "kingdom",
-        "name": "Groundskeeper"
+        "name": "Groundskeeper",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/f/fa/Guardian.jpg",
         "set": "Nocturne",
         "type": "kingdom",
-        "name": "Guardian"
+        "name": "Guardian",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/e1/Guide.jpg",
         "set": "Adventures",
         "type": "kingdom",
-        "name": "Guide"
+        "name": "Guide",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/71/Guildhall.jpg",
         "set": "Renaissance",
         "type": "project",
-        "name": "Guildhall"
+        "name": "Guildhall",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/9/96/Haggler.jpg",
         "set": "Hinterlands",
         "type": "kingdom",
-        "name": "Haggler"
+        "name": "Haggler",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/df/Hamlet.jpg",
         "set": "Cornucopia",
         "type": "kingdom",
-        "name": "Hamlet"
+        "name": "Hamlet",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/32/Harbinger.jpg",
         "set": "Dominion 1st Edition",
         "type": "kingdom",
-        "name": "Harbinger"
+        "name": "Harbinger",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/9/9d/Harem.jpg",
         "set": "Intrigue 2nd Edition",
         "type": "kingdom",
-        "name": "Harem"
+        "name": "Harem",
+        "cost": {
+            "treasure": 6
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/1/1c/Harvest.jpg",
         "set": "Cornucopia",
         "type": "kingdom",
-        "name": "Harvest"
+        "name": "Harvest",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/b/b7/Haunted_Castle.jpg",
         "set": "Empires",
         "type": "castle",
-        "name": "Haunted Castle"
+        "name": "Haunted Castle",
+        "cost": {
+            "treasure": 6
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/5/58/Haunted_Mirror.jpg",
         "set": "Nocturne",
         "type": "heirloom",
-        "name": "Haunted Mirror"
+        "name": "Haunted Mirror",
+        "cost": {
+            "treasure": 0
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/5/54/Haunted_Woods.jpg",
         "set": "Adventures",
         "type": "kingdom",
-        "name": "Haunted Woods"
+        "name": "Haunted Woods",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/5/58/Haunting.jpg",
         "set": "Nocturne",
         "type": "hex",
-        "name": "Haunting"
+        "name": "Haunting",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/c/c9/Haven.jpg",
         "set": "Seaside",
         "type": "kingdom",
-        "name": "Haven"
+        "name": "Haven",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/c/c1/Herald.jpg",
         "set": "Guilds",
         "type": "kingdom",
-        "name": "Herald"
+        "name": "Herald",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/2/26/Herbalist.jpg",
         "set": "Alchemy",
         "type": "kingdom",
-        "name": "Herbalist"
+        "name": "Herbalist",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/8/8e/Hermit.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Hermit"
+        "name": "Hermit",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/2/26/Hero.jpg",
         "set": "Adventures",
         "type": "traveller",
-        "name": "Hero"
+        "name": "Hero",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/3e/Hideout.jpg",
         "set": "Renaissance",
         "type": "kingdom",
-        "name": "Hideout"
+        "name": "Hideout",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/2/29/Highway.jpg",
         "set": "Hinterlands",
         "type": "kingdom",
-        "name": "Highway"
+        "name": "Highway",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/9/91/Hireling.jpg",
         "set": "Adventures",
         "type": "kingdom",
-        "name": "Hireling"
+        "name": "Hireling",
+        "cost": {
+            "treasure": 6
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/d1/Hoard.jpg",
         "set": "Prosperity",
         "type": "kingdom",
-        "name": "Hoard"
+        "name": "Hoard",
+        "cost": {
+            "treasure": 6
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/b/bc/Horn.jpg",
         "set": "Renaissance",
         "type": "artifact",
-        "name": "Horn"
+        "name": "Horn",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/2/20/Horn_of_Plenty.jpg",
         "set": "Cornucopia",
         "type": "kingdom",
-        "name": "Horn of Plenty"
+        "name": "Horn of Plenty",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/c/c8/Horse_Traders.jpg",
         "set": "Cornucopia",
         "type": "kingdom",
-        "name": "Horse Traders"
+        "name": "Horse Traders",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/f/f0/Hovel.jpg",
         "set": "Dark Ages",
         "type": "shelter",
-        "name": "Hovel"
+        "name": "Hovel",
+        "cost": {
+            "treasure": 1
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/6/68/Humble_Castle.jpg",
         "set": "Empires",
         "type": "castle",
-        "name": "Humble Castle"
+        "name": "Humble Castle",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/6/6a/Hunting_Grounds.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Hunting Grounds"
+        "name": "Hunting Grounds",
+        "cost": {
+            "treasure": 6
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/a/ab/Hunting_Party.jpg",
         "set": "Cornucopia",
         "type": "kingdom",
-        "name": "Hunting Party"
+        "name": "Hunting Party",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/79/Idol.jpg",
         "set": "Nocturne",
         "type": "kingdom",
-        "name": "Idol"
+        "name": "Idol",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/9/91/Ill-Gotten_Gains.jpg",
         "set": "Hinterlands",
         "type": "kingdom",
-        "name": "Ill-Gotten Gains"
+        "name": "Ill-Gotten Gains",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/33/Imp.jpg",
         "set": "Nocturne",
         "type": "spirit",
-        "name": "Imp"
+        "name": "Imp",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/33/Imp.jpg",
         "set": "Nocturne",
         "type": "spirit",
-        "name": "Imp"
+        "name": "Imp",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/5/5a/Improve.jpg",
         "set": "Renaissance",
         "type": "kingdom",
-        "name": "Improve"
+        "name": "Improve",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/0/02/Inheritance.jpg",
         "set": "Adventures",
         "type": "event",
-        "name": "Inheritance"
+        "name": "Inheritance",
+        "cost": {
+            "treasure": 7
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/1/1f/Inn.jpg",
         "set": "Hinterlands",
         "type": "kingdom",
-        "name": "Inn"
+        "name": "Inn",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/f/f3/Innovation.jpg",
         "set": "Renaissance",
         "type": "project",
-        "name": "Innovation"
+        "name": "Innovation",
+        "cost": {
+            "treasure": 6
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/9/99/Inventor.jpg",
         "set": "Renaissance",
         "type": "kingdom",
-        "name": "Inventor"
+        "name": "Inventor",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/9/93/Ironmonger.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Ironmonger"
+        "name": "Ironmonger",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/76/Ironworks.jpg",
         "set": "Intrigue 2nd Edition",
         "type": "kingdom",
-        "name": "Ironworks"
+        "name": "Ironworks",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/f/fd/Island.jpg",
         "set": "Seaside",
         "type": "kingdom",
-        "name": "Island"
+        "name": "Island",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/8/82/Jack_of_All_Trades.jpg",
         "set": "Hinterlands",
         "type": "kingdom",
-        "name": "Jack of All Trades"
+        "name": "Jack of All Trades",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/1/1b/Jester.jpg",
         "set": "Cornucopia",
         "type": "kingdom",
-        "name": "Jester"
+        "name": "Jester",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/8/82/Journeyman.jpg",
         "set": "Guilds",
         "type": "kingdom",
-        "name": "Journeyman"
+        "name": "Journeyman",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/c/c2/Junk_Dealer.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Junk Dealer"
+        "name": "Junk Dealer",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/4/4b/Keep.jpg",
         "set": "Empires",
         "type": "landmark",
-        "name": "Keep"
+        "name": "Keep",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/ef/Key.jpg",
         "set": "Renaissance",
         "type": "artifact",
-        "name": "Key"
+        "name": "Key",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/f/f1/King%27s_Castle.jpg",
         "set": "Empires",
         "type": "castle",
-        "name": "King's Castle"
+        "name": "King's Castle",
+        "cost": {
+            "treasure": 10
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/8/8d/King%27s_Court.jpg",
         "set": "Prosperity",
         "type": "kingdom",
-        "name": "King's Court"
+        "name": "King's Court",
+        "cost": {
+            "treasure": 7
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/0/0c/Laboratory.jpg",
         "set": "Dominion 1st Edition",
         "type": "kingdom",
-        "name": "Laboratory"
+        "name": "Laboratory",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/c/c0/Labyrinth.jpg",
         "set": "Empires",
         "type": "landmark",
-        "name": "Labyrinth"
+        "name": "Labyrinth",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/e8/Lackeys.jpg",
         "set": "Renaissance",
         "type": "kingdom",
-        "name": "Lackeys"
+        "name": "Lackeys",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/b/b8/Lantern.jpg",
         "set": "Renaissance",
         "type": "artifact",
-        "name": "Lantern"
+        "name": "Lantern",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/6/64/Legionary.jpg",
         "set": "Empires",
         "type": "kingdom",
-        "name": "Legionary"
+        "name": "Legionary",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/2/23/Leprechaun.jpg",
         "set": "Nocturne",
         "type": "kingdom",
-        "name": "Leprechaun"
+        "name": "Leprechaun",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/9/98/Library.jpg",
         "set": "Dominion 1st Edition",
         "type": "kingdom",
-        "name": "Library"
+        "name": "Library",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/4/4f/Lighthouse.jpg",
         "set": "Seaside",
         "type": "kingdom",
-        "name": "Lighthouse"
+        "name": "Lighthouse",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/1/11/Loan.jpg",
         "set": "Prosperity",
         "type": "kingdom",
-        "name": "Loan"
+        "name": "Loan",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/0/0b/Locusts.jpg",
         "set": "Nocturne",
         "type": "hex",
-        "name": "Locusts"
+        "name": "Locusts",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/c/c6/Lookout.jpg",
         "set": "Seaside",
         "type": "kingdom",
-        "name": "Lookout"
+        "name": "Lookout",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/4/4b/Lost_Arts.jpg",
         "set": "Adventures",
         "type": "event",
-        "name": "Lost Arts"
+        "name": "Lost Arts",
+        "cost": {
+            "treasure": 6
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/9/9a/Lost_City.jpg",
         "set": "Adventures",
         "type": "kingdom",
-        "name": "Lost City"
+        "name": "Lost City",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/3e/Lost_in_the_Woods.jpg",
         "set": "Nocturne",
         "type": "state",
-        "name": "Lost in the Woods"
+        "name": "Lost in the Woods",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/3e/Lucky_Coin.jpg",
         "set": "Nocturne",
         "type": "heirloom",
-        "name": "Lucky Coin"
+        "name": "Lucky Coin",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/f/f7/Lurker.jpg",
         "set": "Intrigue 2nd Edition",
         "type": "kingdom",
-        "name": "Lurker"
+        "name": "Lurker",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/1/19/Madman.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Madman"
+        "name": "Madman",
+        "cost": {
+            "treasure": 0
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/db/Magic_Lamp.jpg",
         "set": "Nocturne",
         "type": "heirloom",
-        "name": "Magic Lamp"
+        "name": "Magic Lamp",
+        "cost": {
+            "treasure": 0
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/1/10/Magpie.jpg",
         "set": "Adventures",
         "type": "kingdom",
-        "name": "Magpie"
+        "name": "Magpie",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/6/68/Mandarin.jpg",
         "set": "Hinterlands",
         "type": "kingdom",
-        "name": "Mandarin"
+        "name": "Mandarin",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/5/5e/Marauder.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Marauder"
+        "name": "Marauder",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/0/06/Margrave.jpg",
         "set": "Hinterlands",
         "type": "kingdom",
-        "name": "Margrave"
+        "name": "Margrave",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/7e/Market.jpg",
         "set": "Dominion 1st Edition",
         "type": "kingdom",
-        "name": "Market"
+        "name": "Market",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/f/f1/Market_Square.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Market Square"
+        "name": "Market Square",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/0/0e/Masquerade.jpg",
         "set": "Intrigue 2nd Edition",
         "type": "kingdom",
-        "name": "Masquerade"
+        "name": "Masquerade",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/0/09/Masterpiece.jpg",
         "set": "Guilds",
         "type": "kingdom",
-        "name": "Masterpiece"
+        "name": "Masterpiece",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/71/Menagerie.jpg",
         "set": "Cornucopia",
         "type": "kingdom",
-        "name": "Menagerie"
+        "name": "Menagerie",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/c/c5/Mercenary.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Mercenary"
+        "name": "Mercenary",
+        "cost": {
+            "treasure": 0
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/78/Merchant.jpg",
         "set": "Dominion 1st Edition",
         "type": "kingdom",
-        "name": "Merchant"
+        "name": "Merchant",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/a/af/Merchant_Guild.jpg",
         "set": "Guilds",
         "type": "kingdom",
-        "name": "Merchant Guild"
+        "name": "Merchant Guild",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/9/92/Merchant_Ship.jpg",
         "set": "Seaside",
         "type": "kingdom",
-        "name": "Merchant Ship"
+        "name": "Merchant Ship",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/3c/Messenger.jpg",
         "set": "Adventures",
         "type": "kingdom",
-        "name": "Messenger"
+        "name": "Messenger",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/a/a0/Militia.jpg",
         "set": "Dominion 1st Edition",
         "type": "kingdom",
-        "name": "Militia"
+        "name": "Militia",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/1/10/Mill.jpg",
         "set": "Intrigue 2nd Edition",
         "type": "kingdom",
-        "name": "Mill"
+        "name": "Mill",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/8/8e/Mine.jpg",
         "set": "Dominion 1st Edition",
         "type": "kingdom",
-        "name": "Mine"
+        "name": "Mine",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/7f/Mining_Village.jpg",
         "set": "Intrigue 2nd Edition",
         "type": "kingdom",
-        "name": "Mining Village"
+        "name": "Mining Village",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/4/47/Minion.jpg",
         "set": "Intrigue 2nd Edition",
         "type": "kingdom",
-        "name": "Minion"
+        "name": "Minion",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/b/bc/Mint.jpg",
         "set": "Prosperity",
         "type": "kingdom",
-        "name": "Mint"
+        "name": "Mint",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/f/f6/Miser.jpg",
         "set": "Adventures",
         "type": "kingdom",
-        "name": "Miser"
+        "name": "Miser",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/6/6b/Miserable.jpg",
         "set": "Nocturne",
         "type": "state",
-        "name": "Miserable"
+        "name": "Miserable",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/31/Misery.jpg",
         "set": "Nocturne",
         "type": "hex",
-        "name": "Misery"
+        "name": "Misery",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/34/Mission.jpg",
         "set": "Adventures",
         "type": "event",
-        "name": "Mission"
+        "name": "Mission",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/f/fe/Moat.jpg",
         "set": "Dominion 1st Edition",
         "type": "kingdom",
-        "name": "Moat"
+        "name": "Moat",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/b/be/Monastery.jpg",
         "set": "Nocturne",
         "type": "kingdom",
-        "name": "Monastery"
+        "name": "Monastery",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/70/Moneylender.jpg",
         "set": "Dominion 1st Edition",
         "type": "kingdom",
-        "name": "Moneylender"
+        "name": "Moneylender",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/a/ad/Monument.jpg",
         "set": "Prosperity",
         "type": "kingdom",
-        "name": "Monument"
+        "name": "Monument",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/d5/Mountain_Pass.jpg",
         "set": "Empires",
         "type": "landmark",
-        "name": "Mountain Pass"
+        "name": "Mountain Pass",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/ed/Mountain_Village.jpg",
         "set": "Renaissance",
         "type": "kingdom",
-        "name": "Mountain Village"
+        "name": "Mountain Village",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/8/89/Mountebank.jpg",
         "set": "Prosperity",
         "type": "kingdom",
-        "name": "Mountebank"
+        "name": "Mountebank",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/b/b2/Museum.jpg",
         "set": "Empires",
         "type": "landmark",
-        "name": "Museum"
+        "name": "Museum",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/37/Mystic.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Mystic"
+        "name": "Mystic",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/6/67/Native_Village.jpg",
         "set": "Seaside",
         "type": "kingdom",
-        "name": "Native Village"
+        "name": "Native Village",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/dd/Navigator.jpg",
         "set": "Seaside",
         "type": "kingdom",
-        "name": "Navigator"
+        "name": "Navigator",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/7e/Necromancer.jpg",
         "set": "Nocturne",
         "type": "kingdom",
-        "name": "Necromancer"
+        "name": "Necromancer",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/6/69/Necropolis.jpg",
         "set": "Dark Ages",
         "type": "shelter",
-        "name": "Necropolis"
+        "name": "Necropolis",
+        "cost": {
+            "treasure": 1
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/75/Night_Watchman.jpg",
         "set": "Nocturne",
         "type": "kingdom",
-        "name": "Night Watchman"
+        "name": "Night Watchman",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/6/63/Noble_Brigand.jpg",
         "set": "Hinterlands",
         "type": "kingdom",
-        "name": "Noble Brigand"
+        "name": "Noble Brigand",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/b/b6/Nobles.jpg",
         "set": "Intrigue 2nd Edition",
         "type": "kingdom",
-        "name": "Nobles"
+        "name": "Nobles",
+        "cost": {
+            "treasure": 6
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/8/89/Nomad_Camp.jpg",
         "set": "Hinterlands",
         "type": "kingdom",
-        "name": "Nomad Camp"
+        "name": "Nomad Camp",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/f/fc/Oasis.jpg",
         "set": "Hinterlands",
         "type": "kingdom",
-        "name": "Oasis"
+        "name": "Oasis",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/c/c6/Obelisk.jpg",
         "set": "Empires",
         "type": "landmark",
-        "name": "Obelisk"
+        "name": "Obelisk",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/0/0e/Old_Witch.jpg",
         "set": "Renaissance",
         "type": "kingdom",
-        "name": "Old Witch"
+        "name": "Old Witch",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/5/55/Opulent_Castle.jpg",
         "set": "Empires",
         "type": "castle",
-        "name": "Opulent Castle"
+        "name": "Opulent Castle",
+        "cost": {
+            "treasure": 7
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/9/97/Oracle.jpg",
         "set": "Hinterlands",
         "type": "kingdom",
-        "name": "Oracle"
+        "name": "Oracle",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/8/80/Orchard.jpg",
         "set": "Empires",
         "type": "landmark",
-        "name": "Orchard"
+        "name": "Orchard",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/b/b4/Outpost.jpg",
         "set": "Seaside",
         "type": "kingdom",
-        "name": "Outpost"
+        "name": "Outpost",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/36/Overgrown_Estate.jpg",
         "set": "Dark Ages",
         "type": "shelter",
-        "name": "Overgrown Estate"
+        "name": "Overgrown Estate",
+        "cost": {
+            "treasure": 1
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/5/5e/Overlord.jpg",
         "set": "Empires",
         "type": "kingdom",
-        "name": "Overlord"
+        "name": "Overlord",
+        "cost": {
+            "debt": 8
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/6/60/Page.jpg",
         "set": "Adventures",
         "type": "kingdom",
-        "name": "Page"
+        "name": "Page",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/b/bc/Pageant.jpg",
         "set": "Renaissance",
         "type": "project",
-        "name": "Pageant"
+        "name": "Pageant",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/c/c4/Palace.jpg",
         "set": "Empires",
         "type": "landmark",
-        "name": "Palace"
+        "name": "Palace",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/a/a9/Pasture.jpg",
         "set": "Nocturne",
         "type": "heirloom",
-        "name": "Pasture"
+        "name": "Pasture",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/2/28/Pathfinding.jpg",
         "set": "Adventures",
         "type": "event",
-        "name": "Pathfinding"
+        "name": "Pathfinding",
+        "cost": {
+            "treasure": 8
+        }
     },
     {
         "status": "legal",
@@ -2139,399 +2977,568 @@ export const CardInfo = [
         "image": "http://wiki.dominionstrategy.com/images/c/c8/Patrol.jpg",
         "set": "Intrigue 2nd Edition",
         "type": "kingdom",
-        "name": "Patrol"
+        "name": "Patrol",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/7e/Patron.jpg",
         "set": "Renaissance",
         "type": "kingdom",
-        "name": "Patron"
+        "name": "Patron",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/0/0f/Pawn.jpg",
         "set": "Intrigue 2nd Edition",
         "type": "kingdom",
-        "name": "Pawn"
+        "name": "Pawn",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/5/56/Pearl_Diver.jpg",
         "set": "Seaside",
         "type": "kingdom",
-        "name": "Pearl Diver"
+        "name": "Pearl Diver",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/70/Peasant.jpg",
         "set": "Adventures",
         "type": "kingdom",
-        "name": "Peasant"
+        "name": "Peasant",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/6/6f/Peddler.jpg",
         "set": "Prosperity",
         "type": "kingdom",
-        "name": "Peddler"
+        "name": "Peddler",
+        "cost": {
+            "treasure": 8
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/32/Philosopher%27s_Stone.jpg",
         "set": "Alchemy",
         "type": "kingdom",
-        "name": "Philosopher's Stone"
+        "name": "Philosopher's Stone",
+        "cost": {
+            "treasure": 3,
+            "potion": 1
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/e3/Piazza.jpg",
         "set": "Renaissance",
         "type": "project",
-        "name": "Piazza"
+        "name": "Piazza",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/ee/Pilgrimage.jpg",
         "set": "Adventures",
         "type": "event",
-        "name": "Pilgrimage"
+        "name": "Pilgrimage",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/74/Pillage.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Pillage"
+        "name": "Pillage",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/4/42/Pirate_Ship.jpg",
         "set": "Seaside",
         "type": "kingdom",
-        "name": "Pirate Ship"
+        "name": "Pirate Ship",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/f/f7/Pixie.jpg",
         "set": "Nocturne",
         "type": "kingdom",
-        "name": "Pixie"
+        "name": "Pixie",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/e5/Plague.jpg",
         "set": "Nocturne",
         "type": "hex",
-        "name": "Plague"
+        "name": "Plague",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/2/2c/Plan.jpg",
         "set": "Adventures",
         "type": "event",
-        "name": "Plan"
+        "name": "Plan",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/f/fc/Plaza.jpg",
         "set": "Guilds",
         "type": "kingdom",
-        "name": "Plaza"
+        "name": "Plaza",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/a/a0/Poacher.jpg",
         "set": "Dominion 1st Edition",
         "type": "kingdom",
-        "name": "Poacher"
+        "name": "Poacher",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/f/f4/Pooka.jpg",
         "set": "Nocturne",
         "type": "kingdom",
-        "name": "Pooka"
+        "name": "Pooka",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/d6/Poor_House.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Poor House"
+        "name": "Poor House",
+        "cost": {
+            "treasure": 1
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/d0/Port.jpg",
         "set": "Adventures",
         "type": "kingdom",
-        "name": "Port"
+        "name": "Port",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/3b/Possession.jpg",
         "set": "Alchemy",
         "type": "kingdom",
-        "name": "Possession"
+        "name": "Possession",
+        "cost": {
+            "treasure": 6,
+            "potion": 1
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/1/18/Pouch.jpg",
         "set": "Nocturne",
         "type": "heirloom",
-        "name": "Pouch"
+        "name": "Pouch",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/5/58/Poverty.jpg",
         "set": "Nocturne",
         "type": "hex",
-        "name": "Poverty"
+        "name": "Poverty",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/b/b6/Priest.jpg",
         "set": "Renaissance",
         "type": "kingdom",
-        "name": "Priest"
+        "name": "Priest",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/ea/Prince.jpg",
         "set": "Promo",
         "type": "kingdom",
-        "name": "Prince"
+        "name": "Prince",
+        "cost": {
+            "treasure": 8
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/4/42/Princess.jpg",
         "set": "Cornucopia",
         "type": "prize",
-        "name": "Princess"
+        "name": "Princess",
+        "cost": {
+            "treasure": 0
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/7a/Procession.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Procession"
+        "name": "Procession",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/6/65/Quarry.jpg",
         "set": "Prosperity",
         "type": "kingdom",
-        "name": "Quarry"
+        "name": "Quarry",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/36/Quest.jpg",
         "set": "Adventures",
         "type": "event",
-        "name": "Quest"
+        "name": "Quest",
+        "cost": {
+            "treasure": 0
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/f/f1/Rabble.jpg",
         "set": "Prosperity",
         "type": "kingdom",
-        "name": "Rabble"
+        "name": "Rabble",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/8/89/Raid.jpg",
         "set": "Adventures",
         "type": "event",
-        "name": "Raid"
+        "name": "Raid",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/e0/Raider.jpg",
         "set": "Nocturne",
         "type": "kingdom",
-        "name": "Raider"
+        "name": "Raider",
+        "cost": {
+            "treasure": 6
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/37/Ranger.jpg",
         "set": "Adventures",
         "type": "kingdom",
-        "name": "Ranger"
+        "name": "Ranger",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/1/1d/Ratcatcher.jpg",
         "set": "Adventures",
         "type": "kingdom",
-        "name": "Ratcatcher"
+        "name": "Ratcatcher",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/70/Rats.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Rats"
+        "name": "Rats",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/d3/Raze.jpg",
         "set": "Adventures",
         "type": "kingdom",
-        "name": "Raze"
+        "name": "Raze",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/f/f8/Rebuild.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Rebuild"
+        "name": "Rebuild",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/a/af/Recruiter.jpg",
         "set": "Renaissance",
         "type": "kingdom",
-        "name": "Recruiter"
+        "name": "Recruiter",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/d3/Relic.jpg",
         "set": "Adventures",
         "type": "kingdom",
-        "name": "Relic"
+        "name": "Relic",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/2/2b/Remake.jpg",
         "set": "Cornucopia",
         "type": "kingdom",
-        "name": "Remake"
+        "name": "Remake",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/2/2e/Remodel.jpg",
         "set": "Dominion 1st Edition",
         "type": "kingdom",
-        "name": "Remodel"
+        "name": "Remodel",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/2/27/Replace.jpg",
         "set": "Intrigue 2nd Edition",
         "type": "kingdom",
-        "name": "Replace"
+        "name": "Replace",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/36/Research.jpg",
         "set": "Renaissance",
         "type": "kingdom",
-        "name": "Research"
+        "name": "Research",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/d1/Ritual.jpg",
         "set": "Empires",
         "type": "event",
-        "name": "Ritual"
+        "name": "Ritual",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/f/f2/Road_Network.jpg",
         "set": "Renaissance",
         "type": "project",
-        "name": "Road Network"
+        "name": "Road Network",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/f/f6/Rogue.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Rogue"
+        "name": "Rogue",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/c/cb/Royal_Blacksmith.jpg",
         "set": "Empires",
         "type": "kingdom",
-        "name": "Royal Blacksmith"
+        "name": "Royal Blacksmith",
+        "cost": {
+            "debt": 8
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/c/cf/Royal_Carriage.jpg",
         "set": "Adventures",
         "type": "kingdom",
-        "name": "Royal Carriage"
+        "name": "Royal Carriage",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/dd/Royal_Seal.jpg",
         "set": "Prosperity",
         "type": "kingdom",
-        "name": "Royal Seal"
+        "name": "Royal Seal",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/f/fe/Ruined_Library.jpg",
         "set": "Dark Ages",
         "type": "ruin",
-        "name": "Ruined Library"
+        "name": "Ruined Library",
+        "cost": {
+            "treasure": 0
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/f/f2/Ruined_Market.jpg",
         "set": "Dark Ages",
         "type": "ruin",
-        "name": "Ruined Market"
+        "name": "Ruined Market",
+        "cost": {
+            "treasure": 0
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/a/ae/Ruined_Village.jpg",
         "set": "Dark Ages",
         "type": "ruin",
-        "name": "Ruined Village"
+        "name": "Ruined Village",
+        "cost": {
+            "treasure": 0
+        }
     },
     {
         "status": "removed",
         "image": "http://wiki.dominionstrategy.com/images/6/60/Saboteur.jpg",
         "set": "Intrigue 2nd Edition",
         "type": "kingdom",
-        "name": "Saboteur"
+        "name": "Saboteur",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/3a/Sacred_Grove.jpg",
         "set": "Nocturne",
         "type": "kingdom",
-        "name": "Sacred Grove"
+        "name": "Sacred Grove",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/5/51/Sacrifice.jpg",
         "set": "Empires",
         "type": "kingdom",
-        "name": "Sacrifice"
+        "name": "Sacrifice",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/70/Sage.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Sage"
+        "name": "Sage",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/6/66/Salt_the_Earth.jpg",
         "set": "Empires",
         "type": "event",
-        "name": "Salt the Earth"
+        "name": "Salt the Earth",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/8/89/Salvager.jpg",
         "set": "Seaside",
         "type": "kingdom",
-        "name": "Salvager"
+        "name": "Salvager",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
@@ -2545,112 +3552,161 @@ export const CardInfo = [
         "image": "http://wiki.dominionstrategy.com/images/2/2e/Save.jpg",
         "set": "Adventures",
         "type": "event",
-        "name": "Save"
+        "name": "Save",
+        "cost": {
+            "treasure": 1
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/d9/Scavenger.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Scavenger"
+        "name": "Scavenger",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/dd/Scepter.jpg",
         "set": "Renaissance",
         "type": "kingdom",
-        "name": "Scepter"
+        "name": "Scepter",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/8/8d/Scheme.jpg",
         "set": "Hinterlands",
         "type": "kingdom",
-        "name": "Scheme"
+        "name": "Scheme",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/2/2e/Scholar.jpg",
         "set": "Renaissance",
         "type": "kingdom",
-        "name": "Scholar"
+        "name": "Scholar",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "removed",
         "image": "http://wiki.dominionstrategy.com/images/4/46/Scout.jpg",
         "set": "Intrigue 2nd Edition",
         "type": "kingdom",
-        "name": "Scout"
+        "name": "Scout",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/b/b2/Scouting_Party.jpg",
         "set": "Adventures",
         "type": "event",
-        "name": "Scouting Party"
+        "name": "Scouting Party",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/79/Scrying_Pool.jpg",
         "set": "Alchemy",
         "type": "kingdom",
-        "name": "Scrying Pool"
+        "name": "Scrying Pool",
+        "cost": {
+            "treasure": 2,
+            "potion": 1
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/ee/Sculptor.jpg",
         "set": "Renaissance",
         "type": "kingdom",
-        "name": "Sculptor"
+        "name": "Sculptor",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/8/8d/Sea_Hag.jpg",
         "set": "Seaside",
         "type": "kingdom",
-        "name": "Sea Hag"
+        "name": "Sea Hag",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/df/Seaway.jpg",
         "set": "Adventures",
         "type": "event",
-        "name": "Seaway"
+        "name": "Seaway",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/8/8d/Secret_Cave.jpg",
         "set": "Nocturne",
         "type": "kingdom",
-        "name": "Secret Cave"
+        "name": "Secret Cave",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "removed",
         "image": "http://wiki.dominionstrategy.com/images/b/b3/Secret_Chamber.jpg",
         "set": "Intrigue 2nd Edition",
         "type": "kingdom",
-        "name": "Secret Chamber"
+        "name": "Secret Chamber",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/b/b4/Secret_Passage.jpg",
         "set": "Intrigue 2nd Edition",
         "type": "kingdom",
-        "name": "Secret Passage"
+        "name": "Secret Passage",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/4/4b/Seer.jpg",
         "set": "Renaissance",
         "type": "kingdom",
-        "name": "Seer"
+        "name": "Seer",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/4/4c/Sentry.jpg",
         "set": "Dominion 1st Edition",
         "type": "kingdom",
-        "name": "Sentry"
+        "name": "Sentry",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
@@ -2664,825 +3720,1143 @@ export const CardInfo = [
         "image": "http://wiki.dominionstrategy.com/images/8/84/Sewers.jpg",
         "set": "Renaissance",
         "type": "project",
-        "name": "Sewers"
+        "name": "Sewers",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/8/8e/Shanty_Town.jpg",
         "set": "Intrigue 2nd Edition",
         "type": "kingdom",
-        "name": "Shanty Town"
+        "name": "Shanty Town",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/a/a9/Shepherd.jpg",
         "set": "Nocturne",
         "type": "kingdom",
-        "name": "Shepherd"
+        "name": "Shepherd",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/f/f2/Silk_Merchant.jpg",
         "set": "Renaissance",
         "type": "kingdom",
-        "name": "Silk Merchant"
+        "name": "Silk Merchant",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/f/f6/Silk_Road.jpg",
         "set": "Hinterlands",
         "type": "kingdom",
-        "name": "Silk Road"
+        "name": "Silk Road",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/a/a2/Silos.jpg",
         "set": "Renaissance",
         "type": "project",
-        "name": "Silos"
+        "name": "Silos",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/0/07/Sinister_Plot.jpg",
         "set": "Renaissance",
         "type": "project",
-        "name": "Sinister Plot"
+        "name": "Sinister Plot",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/a/a6/Sir_Bailey.jpg",
         "set": "Dark Ages",
         "type": "knight",
-        "name": "Sir Bailey"
+        "name": "Sir Bailey",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/1/18/Sir_Destry.jpg",
         "set": "Dark Ages",
         "type": "knight",
-        "name": "Sir Destry"
+        "name": "Sir Destry",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/a/ab/Sir_Martin.jpg",
         "set": "Dark Ages",
         "type": "knight",
-        "name": "Sir Martin"
+        "name": "Sir Martin",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/2/21/Sir_Michael.jpg",
         "set": "Dark Ages",
         "type": "knight",
-        "name": "Sir Michael"
+        "name": "Sir Michael",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/30/Sir_Vander.jpg",
         "set": "Dark Ages",
         "type": "knight",
-        "name": "Sir Vander"
+        "name": "Sir Vander",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/4/4f/Skulk.jpg",
         "set": "Nocturne",
         "type": "kingdom",
-        "name": "Skulk"
+        "name": "Skulk",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/a/a9/Small_Castle.jpg",
         "set": "Empires",
         "type": "castle",
-        "name": "Small Castle"
+        "name": "Small Castle",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/36/Smithy.jpg",
         "set": "Dominion 1st Edition",
         "type": "kingdom",
-        "name": "Smithy"
+        "name": "Smithy",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/0/05/Smugglers.jpg",
         "set": "Seaside",
         "type": "kingdom",
-        "name": "Smugglers"
+        "name": "Smugglers",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/e3/Soldier.jpg",
         "set": "Adventures",
         "type": "traveller",
-        "name": "Soldier"
+        "name": "Soldier",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/0/01/Soothsayer.jpg",
         "set": "Guilds",
         "type": "kingdom",
-        "name": "Soothsayer"
+        "name": "Soothsayer",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/e2/Spice_Merchant.jpg",
         "set": "Hinterlands",
         "type": "kingdom",
-        "name": "Spice Merchant"
+        "name": "Spice Merchant",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/7c/Spices.jpg",
         "set": "Renaissance",
         "type": "kingdom",
-        "name": "Spices"
+        "name": "Spices",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/1/14/Sprawling_Castle.jpg",
         "set": "Empires",
         "type": "castle",
-        "name": "Sprawling Castle"
+        "name": "Sprawling Castle",
+        "cost": {
+            "treasure": 8
+        }
     },
     {
         "status": "removed",
         "image": "http://wiki.dominionstrategy.com/images/c/cb/Spy.jpg",
         "set": "Dominion 1st Edition",
         "type": "kingdom",
-        "name": "Spy"
+        "name": "Spy",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/79/Squire.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Squire"
+        "name": "Squire",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/35/Stables.jpg",
         "set": "Hinterlands",
         "type": "kingdom",
-        "name": "Stables"
+        "name": "Stables",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/0/07/Star_Chart.jpg",
         "set": "Renaissance",
         "type": "project",
-        "name": "Star Chart"
+        "name": "Star Chart",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/2/23/Stash.jpg",
         "set": "Promo",
         "type": "kingdom",
-        "name": "Stash"
+        "name": "Stash",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/8/88/Steward.jpg",
         "set": "Intrigue 2nd Edition",
         "type": "kingdom",
-        "name": "Steward"
+        "name": "Steward",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/d2/Stonemason.jpg",
         "set": "Guilds",
         "type": "kingdom",
-        "name": "Stonemason"
+        "name": "Stonemason",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/b/b4/Storeroom.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Storeroom"
+        "name": "Storeroom",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/6/6a/Storyteller.jpg",
         "set": "Adventures",
         "type": "kingdom",
-        "name": "Storyteller"
+        "name": "Storyteller",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/ee/Summon.jpg",
         "set": "Promo",
         "type": "kingdom",
-        "name": "Summon"
+        "name": "Summon",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/7a/Survivors.jpg",
         "set": "Dark Ages",
         "type": "ruin",
-        "name": "Survivors"
+        "name": "Survivors",
+        "cost": {
+            "treasure": 0
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/db/Swamp_Hag.jpg",
         "set": "Adventures",
         "type": "kingdom",
-        "name": "Swamp Hag"
+        "name": "Swamp Hag",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/4/46/Swashbuckler.jpg",
         "set": "Renaissance",
         "type": "kingdom",
-        "name": "Swashbuckler"
+        "name": "Swashbuckler",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/e7/Swindler.jpg",
         "set": "Intrigue 2nd Edition",
         "type": "kingdom",
-        "name": "Swindler"
+        "name": "Swindler",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/ed/Tactician.jpg",
         "set": "Seaside",
         "type": "kingdom",
-        "name": "Tactician"
+        "name": "Tactician",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/c/cf/Talisman.jpg",
         "set": "Prosperity",
         "type": "kingdom",
-        "name": "Talisman"
+        "name": "Talisman",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/9/9d/Tax.jpg",
         "set": "Empires",
         "type": "event",
-        "name": "Tax"
+        "name": "Tax",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/e0/Taxman.jpg",
         "set": "Guilds",
         "type": "kingdom",
-        "name": "Taxman"
+        "name": "Taxman",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/2/27/Teacher.jpg",
         "set": "Adventures",
         "type": "traveller",
-        "name": "Teacher"
+        "name": "Teacher",
+        "cost": {
+            "treasure": 6
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/9/9f/Temple.jpg",
         "set": "Empires",
         "type": "kingdom",
-        "name": "Temple"
+        "name": "Temple",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/ee/The_Earth%27s_Gift.jpg",
         "set": "Nocturne",
         "type": "boon",
-        "name": "The Earth's Gift"
+        "name": "The Earth's Gift",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/c/c4/The_Field%27s_Gift.jpg",
         "set": "Nocturne",
         "type": "boon",
-        "name": "The Field's Gift"
+        "name": "The Field's Gift",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/1/19/The_Flame%27s_Gift.jpg",
         "set": "Nocturne",
         "type": "boon",
-        "name": "The Flame's Gift"
+        "name": "The Flame's Gift",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/a/a2/The_Moon%27s_Gift.jpg",
         "set": "Nocturne",
         "type": "boon",
-        "name": "The Moon's Gift"
+        "name": "The Moon's Gift",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/1/17/The_Mountain%27s_Gift.jpg",
         "set": "Nocturne",
         "type": "boon",
-        "name": "The Mountain's Gift"
+        "name": "The Mountain's Gift",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/b/b4/The_River%27s_Gift.jpg",
         "set": "Nocturne",
         "type": "boon",
-        "name": "The River's Gift"
+        "name": "The River's Gift",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/f/f4/The_Sea%27s_Gift.jpg",
         "set": "Nocturne",
         "type": "boon",
-        "name": "The Sea's Gift"
+        "name": "The Sea's Gift",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/9/9a/The_Sky%27s_Gift.jpg",
         "set": "Nocturne",
         "type": "boon",
-        "name": "The Sky's Gift"
+        "name": "The Sky's Gift",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/eb/The_Sun%27s_Gift.jpg",
         "set": "Nocturne",
         "type": "boon",
-        "name": "The Sun's Gift"
+        "name": "The Sun's Gift",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/c/ce/The_Swamp%27s_Gift.jpg",
         "set": "Nocturne",
         "type": "boon",
-        "name": "The Swamp's Gift"
+        "name": "The Swamp's Gift",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/a/af/The_Wind%27s_Gift.jpg",
         "set": "Nocturne",
         "type": "boon",
-        "name": "The Wind's Gift"
+        "name": "The Wind's Gift",
+        "cost": {}
     },
     {
         "status": "removed",
         "image": "http://wiki.dominionstrategy.com/images/f/f5/Thief.jpg",
         "set": "Dominion 1st Edition",
         "type": "kingdom",
-        "name": "Thief"
+        "name": "Thief",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/d1/Throne_Room.jpg",
         "set": "Dominion 1st Edition",
         "type": "kingdom",
-        "name": "Throne Room"
+        "name": "Throne Room",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/71/Tomb.jpg",
         "set": "Empires",
         "type": "landmark",
-        "name": "Tomb"
+        "name": "Tomb",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/0/07/Tormentor.jpg",
         "set": "Nocturne",
         "type": "kingdom",
-        "name": "Tormentor"
+        "name": "Tormentor",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/a/a9/Torturer.jpg",
         "set": "Intrigue 2nd Edition",
         "type": "kingdom",
-        "name": "Torturer"
+        "name": "Torturer",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/c/c4/Tournament.jpg",
         "set": "Cornucopia",
         "type": "kingdom",
-        "name": "Tournament"
+        "name": "Tournament",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/2/29/Tower.jpg",
         "set": "Empires",
         "type": "landmark",
-        "name": "Tower"
+        "name": "Tower",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/9/9a/Tracker.jpg",
         "set": "Nocturne",
         "type": "kingdom",
-        "name": "Tracker"
+        "name": "Tracker",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/9/9d/Trade.jpg",
         "set": "Adventures",
         "type": "event",
-        "name": "Trade"
+        "name": "Trade",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/a/a7/Trade_Route.jpg",
         "set": "Prosperity",
         "type": "kingdom",
-        "name": "Trade Route"
+        "name": "Trade Route",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/1/12/Trader.jpg",
         "set": "Hinterlands",
         "type": "kingdom",
-        "name": "Trader"
+        "name": "Trader",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/36/Trading_Post.jpg",
         "set": "Intrigue 2nd Edition",
         "type": "kingdom",
-        "name": "Trading Post"
+        "name": "Trading Post",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/2/29/Tragic_Hero.jpg",
         "set": "Nocturne",
         "type": "kingdom",
-        "name": "Tragic Hero"
+        "name": "Tragic Hero",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/9/99/Training.jpg",
         "set": "Adventures",
         "type": "event",
-        "name": "Training"
+        "name": "Training",
+        "cost": {
+            "treasure": 6
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/a/a9/Transmogrify.jpg",
         "set": "Adventures",
         "type": "kingdom",
-        "name": "Transmogrify"
+        "name": "Transmogrify",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/2/22/Transmute.jpg",
         "set": "Alchemy",
         "type": "kingdom",
-        "name": "Transmute"
+        "name": "Transmute",
+        "cost": {
+            "potion": 1
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/b/be/Travelling_Fair.jpg",
         "set": "Adventures",
         "type": "event",
-        "name": "Travelling Fair"
+        "name": "Travelling Fair",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/37/Treasure_Chest.jpg",
         "set": "Renaissance",
         "type": "artifact",
-        "name": "Treasure Chest"
+        "name": "Treasure Chest",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/c/ce/Treasure_Hunter.jpg",
         "set": "Adventures",
         "type": "traveller",
-        "name": "Treasure Hunter"
+        "name": "Treasure Hunter",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/6/61/Treasure_Map.jpg",
         "set": "Seaside",
         "type": "kingdom",
-        "name": "Treasure Map"
+        "name": "Treasure Map",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/2/22/Treasure_Trove.jpg",
         "set": "Adventures",
         "type": "kingdom",
-        "name": "Treasure Trove"
+        "name": "Treasure Trove",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/8/87/Treasurer.jpg",
         "set": "Renaissance",
         "type": "kingdom",
-        "name": "Treasurer"
+        "name": "Treasurer",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/f/fd/Treasury.jpg",
         "set": "Seaside",
         "type": "kingdom",
-        "name": "Treasury"
+        "name": "Treasury",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "removed",
         "image": "http://wiki.dominionstrategy.com/images/0/00/Tribute.jpg",
         "set": "Intrigue 2nd Edition",
         "type": "kingdom",
-        "name": "Tribute"
+        "name": "Tribute",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/c/c9/Triumph.jpg",
         "set": "Empires",
         "type": "event",
-        "name": "Triumph"
+        "name": "Triumph",
+        "cost": {
+            "debt": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/7a/Triumphal_Arch.jpg",
         "set": "Empires",
         "type": "landmark",
-        "name": "Triumphal Arch"
+        "name": "Triumphal Arch",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/1/12/Trusty_Steed.jpg",
         "set": "Cornucopia",
         "type": "prize",
-        "name": "Trusty Steed"
+        "name": "Trusty Steed",
+        "cost": {
+            "treasure": 0
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/c/c2/Tunnel.jpg",
         "set": "Hinterlands",
         "type": "kingdom",
-        "name": "Tunnel"
+        "name": "Tunnel",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/0/0d/Twice_Miserable.jpg",
         "set": "Nocturne",
         "type": "state",
-        "name": "Twice Miserable"
+        "name": "Twice Miserable",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/9/9b/University.jpg",
         "set": "Alchemy",
         "type": "kingdom",
-        "name": "University"
+        "name": "University",
+        "cost": {
+            "treasure": 2,
+            "potion": 1
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/d/d3/Upgrade.jpg",
         "set": "Intrigue 2nd Edition",
         "type": "kingdom",
-        "name": "Upgrade"
+        "name": "Upgrade",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/74/Urchin.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Urchin"
+        "name": "Urchin",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/3/3f/Vagrant.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Vagrant"
+        "name": "Vagrant",
+        "cost": {
+            "treasure": 2
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/0/00/Vampire.jpg",
         "set": "Nocturne",
         "type": "kingdom",
-        "name": "Vampire"
+        "name": "Vampire",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/0/0b/Vassal.jpg",
         "set": "Dominion 1st Edition",
         "type": "kingdom",
-        "name": "Vassal"
+        "name": "Vassal",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/6/62/Vault.jpg",
         "set": "Prosperity",
         "type": "kingdom",
-        "name": "Vault"
+        "name": "Vault",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/e/ef/Venture.jpg",
         "set": "Prosperity",
         "type": "kingdom",
-        "name": "Venture"
+        "name": "Venture",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/f/f7/Villa.jpg",
         "set": "Empires",
         "type": "kingdom",
-        "name": "Villa"
+        "name": "Villa",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/5/5a/Village.jpg",
         "set": "Dominion 1st Edition",
         "type": "kingdom",
-        "name": "Village"
+        "name": "Village",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/7/74/Villain.jpg",
         "set": "Renaissance",
         "type": "kingdom",
-        "name": "Villain"
+        "name": "Villain",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/c/c8/Vineyard.jpg",
         "set": "Alchemy",
         "type": "kingdom",
-        "name": "Vineyard"
+        "name": "Vineyard",
+        "cost": {
+            "potion": 1
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/6/67/Wall.jpg",
         "set": "Empires",
         "type": "landmark",
-        "name": "Wall"
+        "name": "Wall",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/6/6c/Walled_Village.jpg",
         "set": "Promo",
         "type": "kingdom",
-        "name": "Walled Village"
+        "name": "Walled Village",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/f/f9/Wandering_Minstrel.jpg",
         "set": "Dark Ages",
         "type": "kingdom",
-        "name": "Wandering Minstrel"
+        "name": "Wandering Minstrel",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/5/51/War.jpg",
         "set": "Nocturne",
         "type": "hex",
-        "name": "War"
+        "name": "War",
+        "cost": {}
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/6/6d/Warehouse.jpg",
         "set": "Seaside",
         "type": "kingdom",
-        "name": "Warehouse"
+        "name": "Warehouse",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/9/95/Warrior.jpg",
         "set": "Adventures",
         "type": "traveller",
-        "name": "Warrior"
+        "name": "Warrior",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/c/c2/Watchtower.jpg",
         "set": "Prosperity",
         "type": "kingdom",
-        "name": "Watchtower"
+        "name": "Watchtower",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/b/b6/Wedding.jpg",
         "set": "Empires",
         "type": "event",
-        "name": "Wedding"
+        "name": "Wedding",
+        "cost": {
+            "treasure": 4,
+            "debt": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/4/4b/Werewolf.jpg",
         "set": "Nocturne",
         "type": "kingdom",
-        "name": "Werewolf"
+        "name": "Werewolf",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/c/cc/Wharf.jpg",
         "set": "Seaside",
         "type": "kingdom",
-        "name": "Wharf"
+        "name": "Wharf",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/4/48/Wild_Hunt.jpg",
         "set": "Empires",
         "type": "kingdom",
-        "name": "Wild Hunt"
+        "name": "Wild Hunt",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/4/4f/Will-o%27-Wisp.jpg",
         "set": "Nocturne",
         "type": "spirit",
-        "name": "Will-o'-Wisp"
+        "name": "Will-o'-Wisp",
+        "cost": {
+            "treasure": 0
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/f/f8/Windfall.jpg",
         "set": "Empires",
         "type": "event",
-        "name": "Windfall"
+        "name": "Windfall",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/b/b2/Wine_Merchant.jpg",
         "set": "Adventures",
         "type": "kingdom",
-        "name": "Wine Merchant"
+        "name": "Wine Merchant",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/6/68/Wish.jpg",
         "set": "Nocturne",
         "type": "wish",
-        "name": "Wish"
+        "name": "Wish",
+        "cost": {
+            "treasure": 0
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/f/f7/Wishing_Well.jpg",
         "set": "Intrigue 2nd Edition",
         "type": "kingdom",
-        "name": "Wishing Well"
+        "name": "Wishing Well",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/f/f3/Witch.jpg",
         "set": "Dominion 1st Edition",
         "type": "kingdom",
-        "name": "Witch"
+        "name": "Witch",
+        "cost": {
+            "treasure": 5
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/c/ca/Wolf_Den.jpg",
         "set": "Empires",
         "type": "landmark",
-        "name": "Wolf Den"
+        "name": "Wolf Den",
+        "cost": {}
     },
     {
         "status": "removed",
         "image": "http://wiki.dominionstrategy.com/images/d/d6/Woodcutter.jpg",
         "set": "Dominion 1st Edition",
         "type": "kingdom",
-        "name": "Woodcutter"
+        "name": "Woodcutter",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/1/12/Worker%27s_Village.jpg",
         "set": "Prosperity",
         "type": "kingdom",
-        "name": "Worker's Village"
+        "name": "Worker's Village",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/5/50/Workshop.jpg",
         "set": "Dominion 1st Edition",
         "type": "kingdom",
-        "name": "Workshop"
+        "name": "Workshop",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/9/9e/Young_Witch.jpg",
         "set": "Cornucopia",
         "type": "kingdom",
-        "name": "Young Witch"
+        "name": "Young Witch",
+        "cost": {
+            "treasure": 4
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/8/8b/Zombie_Apprentice.jpg",
         "set": "Nocturne",
         "type": "zombie",
-        "name": "Zombie Apprentice"
+        "name": "Zombie Apprentice",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/5/59/Zombie_Mason.jpg",
         "set": "Nocturne",
         "type": "zombie",
-        "name": "Zombie Mason"
+        "name": "Zombie Mason",
+        "cost": {
+            "treasure": 3
+        }
     },
     {
         "status": "legal",
         "image": "http://wiki.dominionstrategy.com/images/c/c9/Zombie_Spy.jpg",
         "set": "Nocturne",
         "type": "zombie",
-        "name": "Zombie Spy"
+        "name": "Zombie Spy",
+        "cost": {
+            "treasure": 3
+        }
     }
 ];
