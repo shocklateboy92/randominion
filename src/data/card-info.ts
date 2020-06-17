@@ -3162,7 +3162,7 @@ export const CardInfo = [
         }
     },
     {
-        "status": "legal",
+        "status": "removed",
         "image": "http://wiki.dominionstrategy.com/images/3/3b/Possession.jpg",
         "set": "Alchemy",
         "type": "kingdom",
